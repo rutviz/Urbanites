@@ -7,7 +7,7 @@
         card_view:theme="?android:attr/preferenceHeaderPanelStyle">
 
         <android.support.v7.widget.CardView
-            android:id="@+id/card_view"
+            android:id="@+id/bus_detailed_card_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -56,8 +56,8 @@
                     android:paddingLeft="5dp"
                     android:paddingTop="5dp"
                     android:text="₹"
-                    android:textColor="@color/teal_A700"
-                    android:textColorHighlight="@color/amber_50"
+                    android:textColor="#FF00BFA5"
+                    android:textColorHighlight="#FF00BFA5"
                     android:textSize="18dp" />
 
                 <TextView
@@ -69,7 +69,7 @@
                     android:paddingLeft="2dp"
                     android:paddingTop="5dp"
                     android:text="18"
-                    android:textColor="@color/teal_A700"
+                    android:textColor="#FF00BFA5"
                     android:textSize="18dp" />
 
                 <TextView
@@ -100,13 +100,14 @@
                     android:layout_width="45dp"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
-                    android:layout_below="@+id/bus_fare"
                     android:paddingBottom="2dp"
                     android:paddingLeft="2dp"
                     android:paddingTop="5dp"
                     android:text="km"
                     android:textSize="18dp"
-                    android:editable="false"/>
+                    android:editable="false"
+                    android:layout_below="@+id/bus_fare"
+                    android:layout_toEndOf="@+id/bus_distance" />
 
                 <TextView
                     android:id="@+id/arriving"
