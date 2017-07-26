@@ -11,8 +11,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_margin="10dp"
-            android:elevation="3dp"
+            android:layout_margin="0dp"
+            android:elevation="4dp"
             card_view:cardCornerRadius="@dimen/card_album_radius">
 
             <RelativeLayout
@@ -20,93 +20,87 @@
                 style="@style/Base.TextAppearance.AppCompat.Menu"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:padding="10dp">
+                android:padding="16dp">
 
                 <TextView
                     android:id="@+id/bus_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
-                    android:paddingBottom="2dp"
-                    android:paddingLeft="5dp"
-                    android:paddingTop="5dp"
-                    android:text="Bus no."
+                    android:layout_marginBottom="5dp"
+                    android:editable="false"
+                    android:text="Bus No."
                     android:textAppearance="@android:style/TextAppearance.Material.SearchResult.Subtitle"
-                    android:textStyle="bold"
-                    android:editable="false"/>
+                    android:textSize="18sp" />
 
                 <TextView
                     android:id="@+id/bus_number"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_toEndOf="@id/bus_name"
-                    android:paddingBottom="2dp"
-                    android:paddingTop="5dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/bus_name"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="3dp"
                     android:text="1"
                     android:textAppearance="@android:style/TextAppearance.Material.SearchResult.Subtitle"
-                    android:textStyle="bold" />
+                    android:textSize="18sp" />
 
                 <TextView
                     android:id="@+id/rupee"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
                     android:layout_toStartOf="@+id/bus_fare"
                     android:editable="false"
-                    android:paddingBottom="2dp"
-                    android:paddingLeft="5dp"
-                    android:paddingTop="5dp"
                     android:text="₹"
+                    android:layout_marginBottom="5dp"
                     android:textColor="@color/teal_A700"
                     android:textColorHighlight="@color/amber_50"
-                    android:textSize="18dp" />
+                    android:textSize="18sp" />
 
                 <TextView
                     android:id="@+id/bus_fare"
-                    android:layout_width="60dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
-                    android:paddingBottom="2dp"
-                    android:paddingLeft="2dp"
-                    android:paddingTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:paddingLeft="4dp"
                     android:text="18"
                     android:textColor="@color/teal_A700"
-                    android:textSize="18dp" />
+                    android:textSize="18sp" />
 
                 <TextView
                     android:id="@+id/bus_stop"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
-                    android:layout_below="@id/bus_name"
-                    android:paddingBottom="2dp"
-                    android:paddingLeft="5dp"
-                    android:paddingTop="5dp"
-                    android:text="Silverlight tower bus stop" />
+                    android:layout_below="@+id/bus_name"
+                    android:layout_marginBottom="4dp"
+                    android:text="Silverlight Towers Bus Stop"
+                    android:textSize="16sp" />
 
                 <TextView
                     android:id="@+id/bus_distance"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/bus_fare"
-                    android:paddingBottom="2dp"
-                    android:paddingLeft="5dp"
-                    android:paddingTop="5dp"
+                    android:layout_alignBaseline="@+id/km"
+                    android:layout_alignBottom="@+id/km"
+                    android:layout_toStartOf="@+id/km"
+                    android:paddingRight="4dp"
+                    android:paddingLeft="4dp"
                     android:text="2.1"
-                    android:textSize="18dp"
-                    android:layout_alignStart="@+id/rupee" />
+                    android:textSize="16sp" />
 
                 <TextView
                     android:id="@+id/km"
-                    android:layout_width="45dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
-                    android:layout_below="@+id/bus_fare"
-                    android:paddingBottom="2dp"
-                    android:paddingLeft="2dp"
-                    android:paddingTop="5dp"
+                    android:layout_below="@+id/rupee"
+                    android:editable="false"
                     android:text="km"
-                    android:textSize="18dp"
-                    android:editable="false"/>
+                    android:textSize="16sp" />
 
                 <TextView
                     android:id="@+id/arriving"
@@ -114,72 +108,67 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
                     android:layout_below="@id/bus_stop"
-                    android:paddingBottom="2dp"
-                    android:paddingLeft="5dp"
-                    android:paddingTop="5dp"
+                    android:layout_marginBottom="4dp"
+                    android:editable="false"
                     android:text="Arriving in"
-                    android:editable="false"/>
+                    android:textSize="16sp" />
 
                 <TextView
                     android:id="@+id/arriving_time"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_toEndOf="@id/arriving"
                     android:layout_below="@+id/bus_stop"
-                    android:paddingBottom="2dp"
-                    android:paddingLeft="5dp"
-                    android:paddingTop="5dp"
-                    android:text="2"/>
+                    android:layout_toEndOf="@id/arriving"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:text="2"
+                    android:textSize="16sp" />
 
                 <TextView
                     android:id="@+id/arr_min"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/bus_stop"
-                    android:paddingBottom="2dp"
-                    android:paddingLeft="5dp"
-                    android:paddingTop="5dp"
-                    android:text="min"
+                    android:layout_alignBaseline="@+id/arriving_time"
+                    android:layout_alignBottom="@+id/arriving_time"
                     android:layout_toEndOf="@+id/arriving_time"
-                    android:editable="false"/>
+                    android:editable="false"
+                    android:text="min"
+                    android:textSize="16sp" />
 
                 <TextView
                     android:id="@+id/trip"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@id/arriving_time"
                     android:layout_alignParentStart="true"
-                    android:paddingBottom="2dp"
-                    android:paddingLeft="5dp"
-                    android:paddingTop="5dp"
-                    android:text="Trips every"
-                    android:editable="false"/>
+                    android:layout_below="@id/arriving"
+                    android:layout_marginBottom="4dp"
+                    android:editable="false"
+                    android:text="Trips in"
+                    android:textSize="16sp" />
 
                 <TextView
                     android:id="@+id/trip_time"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_toEndOf="@id/trip"
                     android:layout_below="@+id/arriving"
-                    android:paddingBottom="2dp"
-                    android:paddingLeft="5dp"
-                    android:paddingTop="5dp"
-                    android:text="45"/>
+                    android:layout_toEndOf="@id/trip"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:text="45"
+                    android:textSize="16sp" />
 
                 <TextView
                     android:id="@+id/trip_min"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_toEndOf="@+id/trip_time"
                     android:layout_below="@id/arriving"
-                    android:paddingBottom="2dp"
-                    android:paddingLeft="5dp"
-                    android:paddingTop="5dp"
+                    android:layout_toEndOf="@+id/trip_time"
+                    android:editable="false"
                     android:text="min"
-                    android:editable="false"/>
+                    android:textSize="16sp" />
 
 
             </RelativeLayout>
 
         </android.support.v7.widget.CardView>
-</LinearLayout>
+    </LinearLayout>
