@@ -11,16 +11,16 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_margin="10dp"
-            android:elevation="3dp"
-            card_view:cardCornerRadius="@dimen/card_album_radius">
+            android:layout_margin="0dp"
+            android:elevation="4dp"
+            card_view:cardCornerRadius="0dp">
 
             <RelativeLayout
                 android:id="@+id/details_card"
                 style="@style/Base.TextAppearance.AppCompat.Menu"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:padding="10dp">
+                android:padding="16dp">
 
                 <TextView
                     android:id="@+id/cycle_stop"
@@ -28,12 +28,11 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentTop="true"
-                    android:paddingBottom="2dp"
-                    android:paddingLeft="5dp"
-                    android:paddingTop="5dp"
-                    android:text="Silverlight tower stand"
-                    android:textColor="@color/black"
-                    android:textStyle="bold" />
+                    android:text="Silverlight Tower Stand"
+                    android:layout_marginBottom="5dp"
+                    android:textSize="18sp"
+                    android:alpha="0.87"
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:id="@+id/stand_distance"
@@ -41,9 +40,9 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
                     android:layout_below="@id/cycle_stop"
-                    android:paddingBottom="2dp"
-                    android:paddingLeft="5dp"
-                    android:paddingTop="5dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:alpha="0.87"
                     android:text="0.5"/>
 
                 <TextView
@@ -52,10 +51,12 @@
                     android:layout_height="wrap_content"
                     android:layout_toEndOf="@id/stand_distance"
                     android:layout_below="@id/cycle_stop"
-                    android:paddingBottom="2dp"
-                    android:paddingLeft="2dp"
-                    android:paddingTop="5dp"
                     android:text="km"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:alpha="0.87"
                     android:editable="false"/>
 
                 <TextView
@@ -65,11 +66,10 @@
                     android:layout_below="@id/cycle_stop"
                     android:layout_toEndOf="@id/km"
                     android:editable="false"
-                    android:paddingBottom="2dp"
-                    android:paddingLeft="5dp"
-                    android:paddingTop="5dp"
                     android:text="·"
-                    android:textStyle="bold" />
+                    android:paddingRight="4dp"
+                    android:textSize="16sp"
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:id="@+id/cycle_avability_status"
@@ -77,9 +77,9 @@
                     android:layout_height="wrap_content"
                     android:layout_toEndOf="@id/dot"
                     android:layout_below="@+id/cycle_stop"
-                    android:paddingBottom="2dp"
-                    android:paddingLeft="5dp"
-                    android:paddingTop="5dp"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    android:alpha="0.54"
                     android:text="AVAILABLE"/>
 
             </RelativeLayout>
