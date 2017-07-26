@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        card_view:theme="?android:attr/preferenceHeaderPanelStyle">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:elevation="3dp"
+            card_view:cardCornerRadius="@dimen/card_album_radius">
+
+            <RelativeLayout
+                android:id="@+id/details_card"
+                style="@style/Base.TextAppearance.AppCompat.Menu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/bus_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="Bus no."
+                    android:textAppearance="@android:style/TextAppearance.Material.SearchResult.Subtitle"
+                    android:textStyle="bold"
+                    android:editable="false"/>
+
+                <TextView
+                    android:id="@+id/bus_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/bus_name"
+                    android:paddingBottom="2dp"
+                    android:paddingTop="5dp"
+                    android:text="1"
+                    android:textAppearance="@android:style/TextAppearance.Material.SearchResult.Subtitle"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/rupee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toStartOf="@+id/bus_fare"
+                    android:editable="false"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="₹"
+                    android:textColor="@color/teal_A700"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/bus_fare"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="2dp"
+                    android:paddingTop="5dp"
+                    android:text="18"
+                    android:textColor="@color/teal_A700"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/distance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/rupee"
+                    android:layout_below="@+id/bus_fare"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="2.1"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/km"
+                    android:layout_width="45dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@+id/bus_fare"
+                    android:editable="false"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="2dp"
+                    android:paddingTop="5dp"
+                    android:text="km"
+                    android:textSize="18dp" />
+
+                <TextView
+                    android:id="@+id/arriving"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="5dp"
+                    android:layout_below="@id/bus_name"
+                    android:paddingTop="5dp"
+                    android:text="Arriving in"
+                    android:editable="false" />
+
+                <TextView
+                    android:id="@+id/arriving_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/bus_name"
+                    android:layout_toEndOf="@+id/arriving"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="2" />
+
+                <TextView
+                    android:id="@+id/arr_min"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/bus_name"
+                    android:layout_toEndOf="@+id/arriving_time"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="5dp"
+                    android:paddingTop="5dp"
+                    android:text="min"
+                    android:editable="false" />
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+</LinearLayout>
