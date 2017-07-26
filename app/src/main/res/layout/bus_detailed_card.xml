@@ -13,7 +13,7 @@
             android:layout_gravity="center"
             android:layout_margin="0dp"
             android:elevation="4dp"
-            card_view:cardCornerRadius="@dimen/card_album_radius">
+            card_view:cardCornerRadius="0dp">
 
             <RelativeLayout
                 android:id="@+id/details_card"
@@ -30,6 +30,8 @@
                     android:layout_marginBottom="5dp"
                     android:editable="false"
                     android:text="Bus No."
+                    android:textColor="@color/black"
+                    android:alpha="0.87"
                     android:textAppearance="@android:style/TextAppearance.Material.SearchResult.Subtitle"
                     android:textSize="18sp" />
 
@@ -40,8 +42,10 @@
                     android:layout_alignParentTop="true"
                     android:layout_toEndOf="@+id/bus_name"
                     android:paddingLeft="4dp"
-                    android:paddingRight="3dp"
+                    android:paddingRight="4dp"
                     android:text="1"
+                    android:textColor="@color/black"
+                    android:alpha="0.87"
                     android:textAppearance="@android:style/TextAppearance.Material.SearchResult.Subtitle"
                     android:textSize="18sp" />
 
@@ -73,11 +77,13 @@
                     android:id="@+id/bus_stop"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentStart="true"
-                    android:layout_below="@+id/bus_name"
-                    android:layout_marginBottom="4dp"
                     android:text="Silverlight Towers Bus Stop"
-                    android:textSize="16sp" />
+                    android:layout_marginBottom="4dp"
+                    android:textSize="16sp"
+                    android:alpha="0.54"
+                    android:textColor="@color/black"
+                    android:layout_below="@+id/bus_name"
+                    android:layout_alignParentStart="true" />
 
                 <TextView
                     android:id="@+id/bus_distance"
@@ -89,6 +95,8 @@
                     android:paddingRight="4dp"
                     android:paddingLeft="4dp"
                     android:text="2.1"
+                    android:alpha="0.87"
+                    android:textColor="@color/black"
                     android:textSize="16sp" />
 
                 <TextView
@@ -100,6 +108,8 @@
                     android:layout_below="@+id/rupee"
                     android:editable="false"
                     android:text="km"
+                    android:alpha="0.87"
+                    android:textColor="@color/black"
                     android:textSize="16sp" />
 
                 <TextView
@@ -111,18 +121,23 @@
                     android:layout_marginBottom="4dp"
                     android:editable="false"
                     android:text="Arriving in"
+                    android:alpha="0.54"
+                    android:textColor="@color/black"
                     android:textSize="16sp" />
 
                 <TextView
                     android:id="@+id/arriving_time"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/bus_stop"
-                    android:layout_toEndOf="@id/arriving"
                     android:paddingLeft="4dp"
                     android:paddingRight="4dp"
                     android:text="2"
-                    android:textSize="16sp" />
+                    android:alpha="0.54"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:layout_alignBaseline="@+id/arriving"
+                    android:layout_alignBottom="@+id/arriving"
+                    android:layout_toEndOf="@+id/arriving" />
 
                 <TextView
                     android:id="@+id/arr_min"
@@ -133,6 +148,8 @@
                     android:layout_toEndOf="@+id/arriving_time"
                     android:editable="false"
                     android:text="min"
+                    android:alpha="0.54"
+                    android:textColor="@color/black"
                     android:textSize="16sp" />
 
                 <TextView
@@ -143,7 +160,9 @@
                     android:layout_below="@id/arriving"
                     android:layout_marginBottom="4dp"
                     android:editable="false"
-                    android:text="Trips in"
+                    android:text="Trips every"
+                    android:alpha="0.54"
+                    android:textColor="@color/black"
                     android:textSize="16sp" />
 
                 <TextView
@@ -155,6 +174,8 @@
                     android:paddingLeft="4dp"
                     android:paddingRight="4dp"
                     android:text="45"
+                    android:alpha="0.54"
+                    android:textColor="@color/black"
                     android:textSize="16sp" />
 
                 <TextView
@@ -165,6 +186,8 @@
                     android:layout_toEndOf="@+id/trip_time"
                     android:editable="false"
                     android:text="min"
+                    android:alpha="0.54"
+                    android:textColor="@color/black"
                     android:textSize="16sp" />
 
 
