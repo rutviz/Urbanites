@@ -1,0 +1,1482 @@
+{
+	"RMTS":[
+		{
+			"Route1":[
+				{
+					"id":"1",
+					"name":"Rani Tower",
+					"lat":"22.2790559",
+					"long":"70.7635641"
+				},
+
+				{
+					"id":"2",
+					"name":"Masoom School",
+					"lat":"22.2914815",
+					"long":"70.79379829999999"
+				},
+
+				{
+					"id":"3",
+					"name":"SNK School",
+					"lat":"22.2866236",
+					"long":"70.7596276"
+				},
+
+				{
+					"id":"4",
+					"name":"HP Petrol Pump",
+					"lat":"22.3066599",
+					"long":"70.83019800000001"
+				},
+
+				{
+					"id":"5",
+					"name":"Gangotri Dairy",
+					"lat":"22.2923272",
+					"long":"70.7597268"
+				},
+
+				{
+					"id":"6",
+					"name":"Raj Palace",
+					"lat":"22.294515",
+					"long":"70.75901"
+				},
+
+				{
+					"id":"7",
+					"name":"Sun City Appartment",
+					"lat":"22.2956557",
+					"long":"70.75876219999999"
+				},
+
+				{
+					"id":"8",
+					"name":"Patidar Chowk",
+					"lat":"22.2942023",
+					"long":"70.75459479999999"
+				},
+
+				{
+					"id":"9",
+					"name":"Dhanlaxmi Dairy",
+					"lat":"22.3039231",
+					"long":"70.7640626"
+				},
+
+				{
+					"id":"10",
+					"name":"Alap Green City",
+					"lat":"22.3030897",
+					"long":"70.75664429999999"
+				},
+
+				{
+					"id":"11",
+					"name":"Starling Hospital",
+					"lat":"22.306737",
+					"long":"70.76754199999999"
+				},
+
+				{
+					"id":"12",
+					"name":"Marwadi University",
+					"lat":"22.367243",
+					"long":"70.797557"
+				}
+
+			]
+		},{
+			"Route2":[
+				{
+					"id":"13",
+					"name":"Dhrol-Court",
+					"lat":"22.3037036",
+					"long":"70.80260539999999"
+				},
+
+				{
+					"id":"14",
+					"name":"Dhrol-Gandhi Chowk",
+					"lat":"0",
+					"long":"0"
+				},
+
+				{
+					"id":"15",
+					"name":"Dhrol-Trikoniya",
+					"lat":"22.5623043",
+					"long":"70.4194682"
+				},
+
+				{
+					"id":"16",
+					"name":"Dhrol-Padadhri",
+					"lat":"22.5618808",
+					"long":"70.4211668"
+				},
+
+				{
+					"id":"17",
+					"name":"Dhrol-Chouki Dhani",
+					"lat":"22.369305",
+					"long":"70.689874"
+				},
+
+				{
+					"id":"18",
+					"name":"Madhapar Chowk",
+					"lat":"22.3285992",
+					"long":"70.7691126"
+				}
+
+			]
+		},{
+			"Route3":[
+				{
+					"id":"19",
+					"name":"Khodal Hotel",
+					"lat":"21.7531375",
+					"long":"70.6175585"
+				},
+
+				{
+					"id":"20",
+					"name":"Om Nagar Chowk",
+					"lat":"22.2679726",
+					"long":"70.78234139999999"
+				},
+
+				{
+					"id":"21",
+					"name":"Balaji Hall",
+					"lat":"22.2711484",
+					"long":"70.7800103"
+				},
+
+				{
+					"id":"22",
+					"name":"Nana Mava Chowk",
+					"lat":"22.276446",
+					"long":"70.77767"
+				},
+
+				{
+					"id":"23",
+					"name":"Raiya Tele. Exchange",
+					"lat":"22.293905",
+					"long":"70.76944089999999"
+				},
+
+				{
+					"id":"24",
+					"name":"Modi School",
+					"lat":"22.2859045",
+					"long":"70.7903037"
+				},
+
+				{
+					"id":"25",
+					"name":"Raiya Circle",
+					"lat":"22.3012695",
+					"long":"70.7683146"
+				},
+
+				{
+					"id":"26",
+					"name":"Ramapir Chowk",
+					"lat":"22.3111257",
+					"long":"70.7677921"
+				},
+
+				{
+					"id":"27",
+					"name":"Navjivan School",
+					"lat":"22.308833",
+					"long":"70.771926"
+				},
+
+				{
+					"id":"28",
+					"name":"Lakh no Bunglow",
+					"lat":"22.310105",
+					"long":"70.773856"
+				},
+
+				{
+					"id":"29",
+					"name":"Radhe Krishna Temple",
+					"lat":"22.2592329",
+					"long":"70.811745"
+				},
+
+				{
+					"id":"30",
+					"name":"Avantika Park",
+					"lat":"22.2733819",
+					"long":"70.80688529999999"
+				},
+
+				{
+					"id":"31",
+					"name":"Pacific IceCream",
+					"lat":"22.3155353",
+					"long":"70.7729347"
+				},
+
+				{
+					"id":"32",
+					"name":"Sheetal Park",
+					"lat":"22.3154762",
+					"long":"70.7769387"
+				},
+
+				{
+					"id":"33",
+					"name":"Gokul Mathura Chowk",
+					"lat":"22.322569",
+					"long":"70.76664199999999"
+				}
+
+			]
+		},{
+			"Route4":[
+				{
+					"id":"34",
+					"name":"Gondal-Dasi Jivan Partyplot",
+					"lat":"21.9523848",
+					"long":"70.7872993"
+				},
+
+				{
+					"id":"35",
+					"name":"Gondal-Jail Chowk",
+					"lat":"21.9612745",
+					"long":"70.7987272"
+				},
+
+				{
+					"id":"36",
+					"name":"Gondal-Trikoniya",
+					"lat":"0",
+					"long":"0"
+				},
+
+				{
+					"id":"37",
+					"name":"Gondal-Bus Stand",
+					"lat":"21.9605185",
+					"long":"70.7933202"
+				},
+
+				{
+					"id":"38",
+					"name":"Gondal-College Chowk",
+					"lat":"21.968316",
+					"long":"70.8005778"
+				},
+
+				{
+					"id":"39",
+					"name":"Gondal-Alakh Hanuman",
+					"lat":"21.9646199",
+					"long":"70.795535"
+				},
+
+				{
+					"id":"40",
+					"name":"Gondal-Akshar Mandir",
+					"lat":"21.9793763",
+					"long":"70.8010784"
+				},
+
+				{
+					"id":"41",
+					"name":"Gondal-Aashapura Garden",
+					"lat":"21.9832067",
+					"long":"70.8009021"
+				},
+
+				{
+					"id":"42",
+					"name":"Gondal-Ribda",
+					"lat":"22.1356483",
+					"long":"70.7867687"
+				},
+
+				{
+					"id":"43",
+					"name":"Gondal-Shapar",
+					"lat":"22.2101151",
+					"long":"70.8009556"
+				}
+
+			]
+		},{
+			"Route5":[
+				{
+					"id":"44",
+					"name":"Morbi-Post Office",
+					"lat":"22.8187276",
+					"long":"70.8331346"
+				},
+
+				{
+					"id":"45",
+					"name":"Morbi-Genda Circel",
+					"lat":"22.8249808",
+					"long":"70.8489281"
+				},
+
+				{
+					"id":"46",
+					"name":"Morbi-Natraj",
+					"lat":"22.3070039",
+					"long":"70.77093839999999"
+				},
+
+				{
+					"id":"47",
+					"name":"Morbi-Sardarbag",
+					"lat":"22.8092448",
+					"long":"70.826303"
+				},
+
+				{
+					"id":"48",
+					"name":"Morbi-New Bus Stand",
+					"lat":"22.8080681",
+					"long":"70.8225867"
+				},
+
+				{
+					"id":"49",
+					"name":"Morbi-GIDC",
+					"lat":"22.8068872",
+					"long":"70.8210138"
+				},
+
+				{
+					"id":"50",
+					"name":"Morbi-Housing Board",
+					"lat":"22.8049006",
+					"long":"70.8175052"
+				},
+
+				{
+					"id":"51",
+					"name":"Morbi-Umiya Chowk",
+					"lat":"22.8023582",
+					"long":"70.82639209999999"
+				},
+
+				{
+					"id":"52",
+					"name":"Morbi-Kenal",
+					"lat":"22.303895",
+					"long":"70.80216"
+				},
+
+				{
+					"id":"53",
+					"name":"Morbi-Virpar",
+					"lat":"22.7409063",
+					"long":"70.79266989999999"
+				},
+
+				{
+					"id":"54",
+					"name":"Morbi-Lajai Chowk",
+					"lat":"22.8177009",
+					"long":"70.8381287"
+				},
+
+				{
+					"id":"55",
+					"name":"Morbi-Harbatiyali",
+					"lat":"22.5954119",
+					"long":"70.7376623"
+				},
+
+				{
+					"id":"56",
+					"name":"Morbi-Mitana",
+					"lat":"22.5560942",
+					"long":"70.7466194"
+				},
+
+				{
+					"id":"57",
+					"name":"Morbi-Haripar",
+					"lat":"22.947598",
+					"long":"70.8565892"
+				},
+
+				{
+					"id":"58",
+					"name":"Morbi-Gauridad",
+					"lat":"22.3678206",
+					"long":"70.7977222"
+				}
+
+			]
+		},{
+			"Route6":[
+				{
+					"id":"59",
+					"name":"Dhebar Fatak",
+					"lat":"22.268502",
+					"long":"70.800575"
+				},
+
+				{
+					"id":"60",
+					"name":"Suman Bajaj",
+					"lat":"22.273096",
+					"long":"70.800375"
+				},
+
+				{
+					"id":"61",
+					"name":"Swaminarayan Gurukul (Back Side)",
+					"lat":"22.2767089",
+					"long":"70.7997312"
+				},
+
+				{
+					"id":"62",
+					"name":"Jalaram Chowk",
+					"lat":"22.2772518",
+					"long":"70.8044555"
+				},
+
+				{
+					"id":"63",
+					"name":"Jaljit Hall",
+					"lat":"22.275769",
+					"long":"70.806077"
+				},
+
+				{
+					"id":"64",
+					"name":"Sheth High School",
+					"lat":"22.2811854",
+					"long":"70.805962"
+				},
+
+				{
+					"id":"65",
+					"name":"Bhaktinagar Circle",
+					"lat":"22.2800092",
+					"long":"70.8020652"
+				},
+
+				{
+					"id":"66",
+					"name":"Vrundavan Dairy",
+					"lat":"22.284115",
+					"long":"70.8027199"
+				},
+
+				{
+					"id":"67",
+					"name":"Kantastri Vikasgruh Chowk (Dhebar Road)",
+					"lat":"22.2840862",
+					"long":"70.801289"
+				},
+
+				{
+					"id":"68",
+					"name":"Bhutkhana Chowk (Nr.Petrol Pump)",
+					"lat":"22.2854582",
+					"long":"70.8008583"
+				},
+
+				{
+					"id":"69",
+					"name":"Chetan Hardware (Kenal Road)",
+					"lat":"22.288749",
+					"long":"70.8078611"
+				},
+
+				{
+					"id":"70",
+					"name":"Gundawadi Police chowki",
+					"lat":"22.2888085",
+					"long":"70.80806489999999"
+				},
+
+				{
+					"id":"71",
+					"name":"Mahesh Vijay Dairy (Kenal Road)",
+					"lat":"22.2885641",
+					"long":"70.8106368"
+				},
+
+				{
+					"id":"72",
+					"name":"Jilla Garden Chowk (Kenal Road)",
+					"lat":"0",
+					"long":"0"
+				},
+
+				{
+					"id":"73",
+					"name":"Ramnath Para Police Chowki",
+					"lat":"22.2930027",
+					"long":"70.8127748"
+				},
+
+				{
+					"id":"74",
+					"name":"Chunarwad Chowk",
+					"lat":"22.2941869",
+					"long":"70.820212"
+				},
+
+				{
+					"id":"75",
+					"name":"Patel Wadi",
+					"lat":"22.3019231",
+					"long":"70.8133424"
+				},
+
+				{
+					"id":"76",
+					"name":"DK Hanuman, Pedak Road",
+					"lat":"22.3036739",
+					"long":"70.81940700000001"
+				},
+
+				{
+					"id":"77",
+					"name":"Satelite Chowk",
+					"lat":"22.3062733",
+					"long":"70.8252917"
+				},
+
+				{
+					"id":"78",
+					"name":"Ranchhod Das Asram",
+					"lat":"22.3007609",
+					"long":"70.833375"
+				},
+
+				{
+					"id":"79",
+					"name":"Shell Petrol Pump, Kunvadva Road",
+					"lat":"22.3069864",
+					"long":"70.8148046"
+				},
+
+				{
+					"id":"80",
+					"name":"Junction Police Chowki",
+					"lat":"22.3117482",
+					"long":"70.8027354"
+				},
+
+				{
+					"id":"81",
+					"name":"Kolsawadi",
+					"lat":"0",
+					"long":"0"
+				}
+
+			]
+		},{
+			"Route7":[
+				{
+					"id":"82",
+					"name":"Morbi-Vavdi Chowk",
+					"lat":"22.252929",
+					"long":"70.80910999999999"
+				},
+
+				{
+					"id":"83",
+					"name":"Morbi-Patel Wadi",
+					"lat":"22.8119895",
+					"long":"70.82361949999999"
+				},
+
+				{
+					"id":"84",
+					"name":"Morbi-Ravapar Road",
+					"lat":"22.805284",
+					"long":"70.8243497"
+				},
+
+				{
+					"id":"85",
+					"name":"Morbi-Om Shoping Center",
+					"lat":"22.8127899",
+					"long":"70.8314592"
+				},
+
+				{
+					"id":"86",
+					"name":"Morbi-Maheshwari Medical",
+					"lat":"22.8038866",
+					"long":"70.8265847"
+				},
+
+				{
+					"id":"87",
+					"name":"Morbi-Raj Bank Corner",
+					"lat":"22.8105428",
+					"long":"70.83054179999999"
+				},
+
+				{
+					"id":"88",
+					"name":"Morbi-Somnath Tower",
+					"lat":"22.8081404",
+					"long":"70.8287417"
+				},
+
+				{
+					"id":"89",
+					"name":"Morbi-Avenue Park",
+					"lat":"22.805884",
+					"long":"70.8294617"
+				},
+
+				{
+					"id":"90",
+					"name":"Morbi-Swagat Hall",
+					"lat":"22.7990557",
+					"long":"70.8254355"
+				},
+
+				{
+					"id":"91",
+					"name":"Morbi-Prakash Pan",
+					"lat":"22.3038945",
+					"long":"70.80215989999999"
+				},
+
+				{
+					"id":"92",
+					"name":"Morbi-Nilkanth School",
+					"lat":"22.8046215",
+					"long":"70.8269329"
+				},
+
+				{
+					"id":"93",
+					"name":"Morbi-Narshang Tekri",
+					"lat":"22.8025943",
+					"long":"70.82528099999999"
+				},
+
+				{
+					"id":"94",
+					"name":"Morbi-Bhaktinagar Circle",
+					"lat":"22.2770506",
+					"long":"70.7984871"
+				},
+
+				{
+					"id":"95",
+					"name":"Morbi-Sanala",
+					"lat":"22.7979575",
+					"long":"70.8030759"
+				},
+
+				{
+					"id":"96",
+					"name":"Morbi-Tankara Chowk",
+					"lat":"0",
+					"long":"0"
+				}
+
+			]
+		},{
+			"Route8":[
+				{
+					"id":"97",
+					"name":"Princess School",
+					"lat":"22.2881945",
+					"long":"70.7756201"
+				},
+
+				{
+					"id":"98",
+					"name":"Ganga Hall",
+					"lat":"22.284747",
+					"long":"70.7772849"
+				},
+
+				{
+					"id":"99",
+					"name":"Saurastra High School",
+					"lat":"22.2794398",
+					"long":"70.7745516"
+				},
+
+				{
+					"id":"100",
+					"name":"Hillbarg Appartment",
+					"lat":"22.293519",
+					"long":"70.7916611"
+				},
+
+				{
+					"id":"101",
+					"name":"Raj Nagar Chowk",
+					"lat":"22.27991",
+					"long":"70.784351"
+				},
+
+				{
+					"id":"102",
+					"name":"Laxminagar PGVCL",
+					"lat":"22.2796516",
+					"long":"70.7877905"
+				},
+
+				{
+					"id":"103",
+					"name":"Laxminagar Road Start",
+					"lat":"22.279309",
+					"long":"70.791797"
+				},
+
+				{
+					"id":"104",
+					"name":"Panchvati Hall",
+					"lat":"22.2859847",
+					"long":"70.78482629999999"
+				},
+
+				{
+					"id":"105",
+					"name":"Patel Bhel",
+					"lat":"22.2908976",
+					"long":"70.7882877"
+				},
+
+				{
+					"id":"106",
+					"name":"Swaminarayan Temple",
+					"lat":"22.2943094",
+					"long":"70.80772139999999"
+				},
+
+				{
+					"id":"107",
+					"name":"Kotecha Chowk",
+					"lat":"22.2903413",
+					"long":"70.7785845"
+				},
+
+				{
+					"id":"108",
+					"name":"Nirmala Fire Station",
+					"lat":"22.2919803",
+					"long":"70.7777107"
+				},
+
+				{
+					"id":"109",
+					"name":"Nirmala Convent School",
+					"lat":"22.2968593",
+					"long":"70.7768011"
+				},
+
+				{
+					"id":"110",
+					"name":"Sadguru Tirthdham",
+					"lat":"22.2996431",
+					"long":"70.78008"
+				},
+
+				{
+					"id":"111",
+					"name":"Sadguru Complex",
+					"lat":"22.3000916",
+					"long":"70.7782682"
+				},
+
+				{
+					"id":"112",
+					"name":"Amrapali Cinema",
+					"lat":"22.2985537",
+					"long":"70.7832445"
+				},
+
+				{
+					"id":"113",
+					"name":"Amrapali Fatak",
+					"lat":"22.297419",
+					"long":"70.787502"
+				},
+
+				{
+					"id":"114",
+					"name":"Khodiyar Dairy",
+					"lat":"22.2986",
+					"long":"70.781334"
+				},
+
+				{
+					"id":"115",
+					"name":"Airport Fatak",
+					"lat":"22.3067955",
+					"long":"70.78576509999999"
+				},
+
+				{
+					"id":"116",
+					"name":"Guru Govind Wadi",
+					"lat":"0",
+					"long":"0"
+				}
+
+			]
+		},{
+			"Route9":[
+				{
+					"id":"117",
+					"name":"Punit Water Tank",
+					"lat":"22.2468429",
+					"long":"70.795709"
+				},
+
+				{
+					"id":"118",
+					"name":"Momai Hotel",
+					"lat":"22.3017648",
+					"long":"70.76852210000001"
+				},
+
+				{
+					"id":"119",
+					"name":"Astha Residency",
+					"lat":"22.2543302",
+					"long":"70.7867239"
+				},
+
+				{
+					"id":"120",
+					"name":"Radhe Hotel",
+					"lat":"22.2949087",
+					"long":"70.7695001"
+				},
+
+				{
+					"id":"121",
+					"name":"Bapa Sitaram Chowk (Mavdi)",
+					"lat":"22.2602696",
+					"long":"70.78139089999999"
+				},
+
+				{
+					"id":"122",
+					"name":"Mavdi Chowk",
+					"lat":"22.2648399",
+					"long":"70.7845993"
+				}
+
+			]
+		},{
+			"Route10":[
+				{
+					"id":"123",
+					"name":"Ahir Chowk",
+					"lat":"22.2609689",
+					"long":"70.80461129999999"
+				},
+
+				{
+					"id":"124",
+					"name":"Trishul Chowk",
+					"lat":"22.2813937",
+					"long":"70.7892741"
+				},
+
+				{
+					"id":"125",
+					"name":"Patel Pan (Sahkar Main Road)",
+					"lat":"22.29444",
+					"long":"70.80348699999999"
+				},
+
+				{
+					"id":"126",
+					"name":"Swaminarayan Dairy (sahkar Main Road)",
+					"lat":"22.3038945",
+					"long":"70.80215989999999"
+				},
+
+				{
+					"id":"127",
+					"name":"Nanda Hall",
+					"lat":"22.2688131",
+					"long":"70.8130096"
+				},
+
+				{
+					"id":"128",
+					"name":"Navnit Hall",
+					"lat":"22.2655862",
+					"long":"70.8114843"
+				},
+
+				{
+					"id":"129",
+					"name":"Haridhava Chowk",
+					"lat":"22.26307",
+					"long":"70.8108539"
+				},
+
+				{
+					"id":"130",
+					"name":"Kothariya Circle",
+					"lat":"22.2539897",
+					"long":"70.81773559999999"
+				},
+
+				{
+					"id":"131",
+					"name":"Hudko Police Chowki",
+					"lat":"22.263057",
+					"long":"70.81479"
+				},
+
+				{
+					"id":"132",
+					"name":"Kedar Gate",
+					"lat":"22.2680835",
+					"long":"70.8147807"
+				},
+
+				{
+					"id":"133",
+					"name":"Nilkanth Cinema",
+					"lat":"22.2700158",
+					"long":"70.81307009999999"
+				},
+
+				{
+					"id":"134",
+					"name":"Bade Balaji (Kothariya Main Road)",
+					"lat":"22.278567",
+					"long":"70.811571"
+				},
+
+				{
+					"id":"135",
+					"name":"Sorthiyawadi Circle",
+					"lat":"22.2816136",
+					"long":"70.8109277"
+				},
+
+				{
+					"id":"136",
+					"name":"Satyam Park",
+					"lat":"22.2720863",
+					"long":"70.7677686"
+				},
+
+				{
+					"id":"137",
+					"name":"Ambedkar Nagar Gate",
+					"lat":"22.2722431",
+					"long":"70.7591079"
+				},
+
+				{
+					"id":"138",
+					"name":"Amul Chowk",
+					"lat":"22.2819028",
+					"long":"70.7530838"
+				},
+
+				{
+					"id":"139",
+					"name":"Corporation Office, Bhavnagar Road",
+					"lat":"22.2962305",
+					"long":"70.81732860000001"
+				},
+
+				{
+					"id":"140",
+					"name":"Sadguru Complex (Sant kabir Road)",
+					"lat":"22.3000584",
+					"long":"70.8234619"
+				},
+
+				{
+					"id":"141",
+					"name":"Triveni Gate",
+					"lat":"22.303895",
+					"long":"70.80216"
+				},
+
+				{
+					"id":"142",
+					"name":"Ramdev Temple",
+					"lat":"22.2441001",
+					"long":"70.8920289"
+				},
+
+				{
+					"id":"143",
+					"name":"Green Land Chokdi",
+					"lat":"22.3116712",
+					"long":"70.8288918"
+				},
+
+				{
+					"id":"144",
+					"name":"Morbi Road Jakat Naka",
+					"lat":"22.3225279",
+					"long":"70.823399"
+				}
+
+			]
+		},{
+			"Route11":[
+				{
+					"id":"145",
+					"name":"Kasturi Resedency",
+					"lat":"22.2583924",
+					"long":"70.7683261"
+				},
+
+				{
+					"id":"146",
+					"name":"Ambika Township",
+					"lat":"22.2583924",
+					"long":"70.7683261"
+				},
+
+				{
+					"id":"147",
+					"name":"Silver Residency",
+					"lat":"22.2690303",
+					"long":"70.762147"
+				},
+
+				{
+					"id":"148",
+					"name":"Shashtri Nagar Gate",
+					"lat":"22.8029024",
+					"long":"70.8274137"
+				},
+
+				{
+					"id":"149",
+					"name":"Satysai Road Start",
+					"lat":"22.2784156",
+					"long":"70.7695437"
+				},
+
+				{
+					"id":"150",
+					"name":"Satysai Heart Hospital",
+					"lat":"22.2784156",
+					"long":"70.7695437"
+				},
+
+				{
+					"id":"151",
+					"name":"Alap Heritage",
+					"lat":"22.276398",
+					"long":"70.771377"
+				},
+
+				{
+					"id":"152",
+					"name":"Maruti Nagar Chowk",
+					"lat":"22.277574",
+					"long":"70.770482"
+				},
+
+				{
+					"id":"153",
+					"name":"Atmiya College",
+					"lat":"22.2818624",
+					"long":"70.7679106"
+				},
+
+				{
+					"id":"154",
+					"name":"Marwadi Willa",
+					"lat":"22.277082",
+					"long":"70.779425"
+				},
+
+				{
+					"id":"155",
+					"name":"Panchayat Chowk",
+					"lat":"22.287952",
+					"long":"70.7672675"
+				},
+
+				{
+					"id":"156",
+					"name":"Gopal Chowk",
+					"lat":"22.2957309",
+					"long":"70.7621556"
+				},
+
+				{
+					"id":"157",
+					"name":"Bapa Sitaram Chowk",
+					"lat":"22.2602696",
+					"long":"70.78139089999999"
+				},
+
+				{
+					"id":"158",
+					"name":"Darshan Park",
+					"lat":"22.298011",
+					"long":"70.7620077"
+				}
+
+			]
+		},{
+			"Route12":[
+				{
+					"id":"159",
+					"name":"Nil-da Dhaba",
+					"lat":"22.2760598",
+					"long":"70.76014260000001"
+				},
+
+				{
+					"id":"160",
+					"name":"Ruda-2 Gate",
+					"lat":"22.2838356",
+					"long":"70.7602715"
+				},
+
+				{
+					"id":"161",
+					"name":"Vishnu Vihar",
+					"lat":"22.2803782",
+					"long":"70.7493705"
+				},
+
+				{
+					"id":"162",
+					"name":"Vimal Nagar",
+					"lat":"22.2838489",
+					"long":"70.7529015"
+				},
+
+				{
+					"id":"163",
+					"name":"Star Resedency",
+					"lat":"22.3062812",
+					"long":"70.81228399999999"
+				},
+
+				{
+					"id":"164",
+					"name":"Puskar Dham",
+					"lat":"22.2846355",
+					"long":"70.7561253"
+				},
+
+				{
+					"id":"165",
+					"name":"Alap Avenue",
+					"lat":"22.2843429",
+					"long":"70.7540166"
+				},
+
+				{
+					"id":"166",
+					"name":"Forensic Lab",
+					"lat":"22.2881822",
+					"long":"70.754801"
+				},
+
+				{
+					"id":"167",
+					"name":"Ramkrupa Dairy",
+					"lat":"22.288054",
+					"long":"70.7691246"
+				},
+
+				{
+					"id":"168",
+					"name":"Patel Dairy (Kidvai Nagar)",
+					"lat":"22.272696",
+					"long":"70.740636"
+				},
+
+				{
+					"id":"169",
+					"name":"Someshwar Temple (Kidvainagar)",
+					"lat":"22.2886658",
+					"long":"70.7669671"
+				}
+
+			]
+		},{
+			"Route13":[
+				{
+					"id":"170",
+					"name":"Santosh Dairy",
+					"lat":"22.292604",
+					"long":"70.80822700000002"
+				},
+
+				{
+					"id":"171",
+					"name":"Ashapura Temple (Palace Road)",
+					"lat":"22.2935822",
+					"long":"70.8080093"
+				},
+
+				{
+					"id":"172",
+					"name":"Diwanpara Police Chowki (Bhupendra Road)",
+					"lat":"22.294864",
+					"long":"70.8068177"
+				},
+
+				{
+					"id":"173",
+					"name":"Karansinhji Balaji Temple (Bhupendra Road)",
+					"lat":"22.2944499",
+					"long":"70.80443"
+				},
+
+				{
+					"id":"174",
+					"name":"Corporation Chowk",
+					"lat":"22.2930222",
+					"long":"70.8023879"
+				},
+
+				{
+					"id":"175",
+					"name":"Trikon Bag",
+					"lat":"22.2952905",
+					"long":"70.8000328"
+				},
+
+				{
+					"id":"176",
+					"name":"Malaviya Chowk",
+					"lat":"22.2918801",
+					"long":"70.7989384"
+				},
+
+				{
+					"id":"177",
+					"name":"Haribhai Hall",
+					"lat":"22.2907227",
+					"long":"70.79336669999999"
+				},
+
+				{
+					"id":"178",
+					"name":"Virani Chowk",
+					"lat":"22.2866421",
+					"long":"70.7919486"
+				},
+
+				{
+					"id":"179",
+					"name":"Hemu Gadhvi Hall",
+					"lat":"22.2892443",
+					"long":"70.7892837"
+				},
+
+				{
+					"id":"180",
+					"name":"Astron Chowk",
+					"lat":"22.291431",
+					"long":"70.7880771"
+				},
+
+				{
+					"id":"181",
+					"name":"Shree Ram Fruit Corner, Jagnath",
+					"lat":"0",
+					"long":"0"
+				},
+
+				{
+					"id":"182",
+					"name":"Kishanpara",
+					"lat":"22.2978374",
+					"long":"70.78720799999999"
+				},
+
+				{
+					"id":"183",
+					"name":"Jilla Panchayat Chowk",
+					"lat":"22.287952",
+					"long":"70.7672675"
+				},
+
+				{
+					"id":"184",
+					"name":"Bahumali Bhavan",
+					"lat":"22.3045091",
+					"long":"70.792275"
+				},
+
+				{
+					"id":"185",
+					"name":"Dharam Cinema",
+					"lat":"22.3027049",
+					"long":"70.79633989999999"
+				},
+
+				{
+					"id":"186",
+					"name":"Chaudhari High School",
+					"lat":"22.3020738",
+					"long":"70.7984455"
+				},
+
+				{
+					"id":"187",
+					"name":"Jam Tower",
+					"lat":"22.3065473",
+					"long":"70.7972932"
+				},
+
+				{
+					"id":"188",
+					"name":"Police Head Quarter",
+					"lat":"22.3097171",
+					"long":"70.7919265"
+				},
+
+				{
+					"id":"189",
+					"name":"Sandiya Pull",
+					"lat":"0",
+					"long":"0"
+				},
+
+				{
+					"id":"190",
+					"name":"Manmohan Marble (Jamnagar Road)",
+					"lat":"22.3247823",
+					"long":"70.7751868"
+				}
+
+			]
+		},{
+			"Route14":[
+				{
+					"id":"191",
+					"name":"Jakat Naka, Gondal Road",
+					"lat":"22.2677628",
+					"long":"70.7994989"
+				},
+
+				{
+					"id":"192",
+					"name":"Rokadiya Chowk",
+					"lat":"22.2924979",
+					"long":"70.788279"
+				},
+
+				{
+					"id":"193",
+					"name":"Guruprasad Chowk",
+					"lat":"22.2645264",
+					"long":"70.7936429"
+				},
+
+				{
+					"id":"194",
+					"name":"Doshi Hospital",
+					"lat":"22.2652185",
+					"long":"70.7960487"
+				},
+
+				{
+					"id":"195",
+					"name":"PDM College",
+					"lat":"22.2675444",
+					"long":"70.7978729"
+				},
+
+				{
+					"id":"196",
+					"name":"Ambaji Kadva Chowk",
+					"lat":"22.268432",
+					"long":"70.7951994"
+				},
+
+				{
+					"id":"197",
+					"name":"Swaminarayan Chowk",
+					"lat":"22.2682516",
+					"long":"70.7935731"
+				},
+
+				{
+					"id":"198",
+					"name":"Anand Bunglow Chowk",
+					"lat":"22.2726924",
+					"long":"70.7931317"
+				},
+
+				{
+					"id":"199",
+					"name":"Mavdi Fire Station",
+					"lat":"22.2712316",
+					"long":"70.7899584"
+				},
+
+				{
+					"id":"200",
+					"name":"Mayani Chowk",
+					"lat":"22.2756567",
+					"long":"70.7865659"
+				},
+
+				{
+					"id":"201",
+					"name":"MSFL HO",
+					"lat":"22.2777479",
+					"long":"70.78008"
+				},
+
+				{
+					"id":"202",
+					"name":"Big Bazaar",
+					"lat":"22.2799913",
+					"long":"70.77541110000001"
+				},
+
+				{
+					"id":"203",
+					"name":"Zade Blue Showroom",
+					"lat":"22.283048",
+					"long":"70.774135"
+				},
+
+				{
+					"id":"204",
+					"name":"KKV Hall",
+					"lat":"22.286538",
+					"long":"70.772948"
+				},
+
+				{
+					"id":"205",
+					"name":"Indira Circle",
+					"lat":"22.2884372",
+					"long":"70.771176"
+				}
+
+			]
+		}
+	]
+}
