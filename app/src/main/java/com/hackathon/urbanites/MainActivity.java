@@ -29,12 +29,14 @@ import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.location.places.Place;
 import com.google.android.gms.location.places.Places;
 import com.google.android.gms.location.places.ui.PlaceAutocomplete;
+import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.LatLngBounds;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.Polyline;
@@ -81,12 +83,14 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     private double DestLat;
     private double DestLong;
     private DistanceCalc DC = new DistanceCalc();
+    CameraUpdate cu;
 
 
 
     EditText Source, Destination;
 
     LatLng NearSource, NearDest;
+    private CameraUpdate cu1;
 
 
     @Override
@@ -101,7 +105,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
 
-        RMTS_bus = loadJSONFromAsset();
+
 
         Source.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -169,6 +173,12 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                     location.setLongitude(val.getDouble("long"));
                     location.setLatitude(val.getDouble("lat"));
                     locList.add(location);
+                    if(i==0) {
+                         mMap.addMarker(new MarkerOptions()
+                                .icon(BitmapDescriptorFactory.fromResource(R.drawable.marker_rmt))
+                                .title(location.getName())
+                                .position(new LatLng(location.getLatitude(), location.getLongitude())));
+                    }
                 }
             }
 
@@ -178,6 +188,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             e.printStackTrace();
             Log.d("test",e.getMessage());
         }
+
 
         Log.d("test",builder.toString());
         return locList;
@@ -196,8 +207,27 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         }
 
         try {
+            if (originMarkers != null) {
+                for (Marker marker : originMarkers) {
+                    marker.remove();
+                }
+            }
+
+            if (destinationMarkers != null) {
+                for (Marker marker : destinationMarkers) {
+                    marker.remove();
+                }
+            }
+
+            if (polylinePaths != null) {
+                for (Polyline polyline:polylinePaths ) {
+                    polyline.remove();
+                }
+            }
             temp = 0;
-            new DirectionFinder(this, origin, destination).execute();
+            new DirectionFinder(this, origin, NearSource.latitude+","+NearSource.longitude).execute();
+            new DirectionFinder(this, NearSource.latitude+","+NearSource.longitude,NearDest.latitude+","+NearDest.longitude).execute();
+            new DirectionFinder(this, NearDest.latitude+","+NearDest.longitude,destination).execute();
             /*new DirectionFinder(this, "Gondal chowk, samrat Industrial area,rajkot", destination).execute();*/
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
@@ -209,6 +239,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
+
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
 
             ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 123);
@@ -216,8 +247,12 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         else
         {
             mMap.setMyLocationEnabled(true);
-            Log.d(TAG, "Map Loaded");
+
         }
+        RMTS_bus = loadJSONFromAsset();
+
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(22.3039,70.8022),12));
+
     }
 
     public void setLocationEnable() {
@@ -235,12 +270,9 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 Source.setText(place.getName() + ", " + place.getAddress());
                 SourceLat = place.getLatLng().latitude;
                 SourceLong = place.getLatLng().longitude;
+                NearSource = getNearestBRTS(SourceLat,SourceLong);
                 Log.d("test",place.getLatLng().latitude+"");
                 Log.d("test",place.getLatLng().longitude+"");
-                /*if (!Destination.getText().toString().equals("")){
-                    Log.d(TAG,"Finding");
-                    sendRequest();
-                }*/
                 Log.i(TAG, "Place: " + place.getName());
             } else if (resultCode == PlaceAutocomplete.RESULT_ERROR) {
                 Status status = PlaceAutocomplete.getStatus(this, data);
@@ -259,11 +291,8 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 Log.d("test",place.getLatLng().longitude+"");
                 if (!Source.getText().toString().equals("")){
                     Log.d(TAG,"Finding");
+                    NearDest = getNearestBRTS(DestLat,DestLong);
                     sendRequest();
-                    double dist = getNearestBRTS();
-                    Log.d("distance", String.valueOf(dist));
-
-
                 }
                 Log.i(TAG, "Place: " + place.getName() + ", " + place.getAddress());
 
@@ -279,58 +308,40 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
     @Override
     public void onDirectionFinderStart() {
-        progressDialog = ProgressDialog.show(this, "Please wait.","Finding direction..!", true);
-        /*if (originMarkers != null) {
-            for (Marker marker : originMarkers) {
-                marker.remove();
-            }
-        }
+       // progressDialog = ProgressDialog.show(this, "Please wait.","Finding direction..!", true);
 
-        if (destinationMarkers != null) {
-            for (Marker marker : destinationMarkers) {
-                marker.remove();
-            }
-        }
-
-        if (polylinePaths != null) {
-            for (Polyline polyline:polylinePaths ) {
-                polyline.remove();
-            }
-        }*/
     }
 
-    private double getNearestBRTS() {
+    private LatLng getNearestBRTS(Double Lat, Double Long) {
         double D1;
         double D2 = 0;
         String near_station = null;
+        LatLng latLng = new LatLng(0,0);
 
         for (MyLocation location : RMTS_bus)
         {
-            D1 =  DC.distance(SourceLat,SourceLong,location.getLatitude(),location.getLongitude());
-          //  Log.d("Send123","Source-"+SourceLat+" "+SourceLong+" "+location.getLatitude()+" "+location.getLongitude());
-            Log.d("Distance123",location.getName()+"--"+D1);
-            Log.d("Distance123",near_station+"--"+D2);
+            D1 =  DC.distance(Lat,Long,location.getLatitude(),location.getLongitude());
             if(D2 == 0)
             {
                 D2 = D1;
                 near_station = location.getName();
+                latLng = new LatLng(location.getLatitude(),location.getLongitude());
             }
-
             if(D1 < D2)
             {
-                Log.d("Distance123","changed");
                 D2 = D1;
                 near_station = location.getName();
+                latLng = new LatLng(location.getLatitude(),location.getLongitude());
             }
 
         }
-        Log.d("Station",near_station);
-        return D2;
+        Log.d("Stationnear",latLng.toString());
+        return latLng;
     }
     @Override
     public void onDirectionFinderSuccess(List<Route> routes) {
-        progressDialog.dismiss();
-        Log.d("success123","success");
+        //progressDialog.dismiss();
+      //  Log.d("success123","success");
         polylinePaths = new ArrayList<>();
         originMarkers = new ArrayList<>();
         destinationMarkers = new ArrayList<>();
@@ -350,17 +361,11 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                     .title(route.endAddress)
                     .position(route.endLocation)));
 
-            PolylineOptions polylineOptions = new PolylineOptions().
-                    geodesic(true).
-                    color(Color.BLUE).
-                    width(10);
-            if (temp==1) {
-                polylineOptions = new PolylineOptions().
-                        geodesic(true).
-                        color(Color.RED).
-                        width(10);
-            }
 
+                PolylineOptions polylineOptions = new PolylineOptions().
+                        geodesic(true).
+                        color(getResources().getColor(R.color.blue_600)).
+                        width(15);
 
             for (int i = 0; i < route.points.size(); i++)
                 polylineOptions.add(route.points.get(i));
@@ -380,45 +385,6 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             }
         }
     }
-
-   /* public ArrayList<MyLocation> loadJSONFromAsset() {
-        ArrayList<MyLocation> locList = new ArrayList<>();
-        String json = null;
-        try {
-            Log.d("outputJson","1 done");
-            InputStream is = getAssets().open("rajkot_bus_list.json");
-            int size = is.available();
-            byte[] buffer = new byte[size];
-            is.read(buffer);
-            is.close();
-            json = new String(buffer, "UTF-8");
-        } catch (IOException ex) {
-            ex.printStackTrace();
-            return null;
-
-        }
-        try {
-            JSONObject obj = new JSONObject(json);
-            JSONArray m_jArry = obj.getJSONArray("RMTS").getJSONArray(1);
-            Log.d("outputJson","1 done");
-            for (int i = 0; i < m_jArry.length(); i++) {
-                JSONObject jo_inside = m_jArry.getJSONObject(i);
-                MyLocation location = new MyLocation();
-                location.setId(jo_inside.getInt("id"));
-                location.setName(jo_inside.getString("name"));
-                location.setLatitude((float) jo_inside.getDouble("lat"));
-                location.setLongitude((float) jo_inside.getDouble("long"));
-                Log.d("outputJson",jo_inside.getString("name"));
-
-                //Add your values in your `ArrayList` as below:
-                locList.add(location);
-            }
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
-        return locList;
-
-    }*/
 
     @Override
     public void onConnected(@Nullable Bundle bundle) {
