@@ -1,0 +1,2776 @@
+{
+	"RMTS":[
+	{
+	"id":"2",
+	"name":"RAIYA ROAD",
+	"lat":"22.3013591766357",
+	"long":"70.7684860229492"
+	},
+
+	{
+	"id":"3",
+	"name":"Punit Nagar Society, Rajkot",
+	"lat":"22.24793",
+	"long":"70.7949066666667"
+	},
+
+	{
+	"id":"4",
+	"name":"Goverdhan Chowk, Rajkot",
+	"lat":"22.2515533333333",
+	"long":"70.7905916666667"
+	},
+
+	{
+	"id":"5",
+	"name":"Ambedkar Nagar , Rajkot",
+	"lat":"22.2553883333333",
+	"long":"70.7885083333333"
+	},
+
+	{
+	"id":"6",
+	"name":"Shree Umiya Chowk, Rajkot",
+	"lat":"22.2606266666667",
+	"long":"70.7874666666667"
+	},
+
+	{
+	"id":"7",
+	"name":"Mavadi Chowk, Rajkot",
+	"lat":"22.2652866666667",
+	"long":"70.7841316666667"
+	},
+
+	{
+	"id":"8",
+	"name":"Om Nagar, Rajkot",
+	"lat":"22.2683333333333",
+	"long":"70.78205"
+	},
+
+	{
+	"id":"9",
+	"name":"Mahapuja Dham Chowk, Rajkot",
+	"lat":"22.2716116666667",
+	"long":"70.77992"
+	},
+
+	{
+	"id":"10",
+	"name":"West Zone Office RMC, Rajkot",
+	"lat":"22.2808416666667",
+	"long":"70.7755866666667"
+	},
+
+	{
+	"id":"11",
+	"name":"Raiya Telephone Exchange, Rajkot",
+	"lat":"22.2947266666667",
+	"long":"70.769735"
+	},
+
+	{
+	"id":"12",
+	"name":"Nanavati Chowk, Rajkot",
+	"lat":"22.3058983333333",
+	"long":"70.768315"
+	},
+
+	{
+	"id":"13",
+	"name":"Ayodhya Chowk, Rajkot",
+	"lat":"22.3233566666667",
+	"long":"70.76792"
+	},
+
+	{
+	"id":"14",
+	"name":"Madhapar Chowk , Rajkot",
+	"lat":"22.3286816666667",
+	"long":"70.7690833333333"
+	},
+
+	{
+	"id":"15",
+	"name":"Shital Park, Rajkot",
+	"lat":"22.314999",
+	"long":"70.776982"
+	},
+
+	{
+	"id":"16",
+	"name":"Viruni School Rajkot Gujrat",
+	"lat":"22.2879833333333",
+	"long":"70.7910566666667"
+	},
+
+	{
+	"id":"17",
+	"name":"Hemugadhavi Hall Rajkot Gujrat",
+	"lat":"22.2897483333333",
+	"long":"70.7892833333333"
+	},
+
+	{
+	"id":"18",
+	"name":"Astron Chowk Mahavir Chowk Rajkot Gujrat",
+	"lat":"22.291444",
+	"long":"70.788013"
+	},
+
+	{
+	"id":"19",
+	"name":"Sbi Bank Rajkot Gujrat",
+	"lat":"22.2893533333333",
+	"long":"70.7742533333333"
+	},
+
+	{
+	"id":"20",
+	"name":"Jivan Jyot School Rajkot Gujrat",
+	"lat":"22.2876633333333",
+	"long":"70.7625083333333"
+	},
+
+	{
+	"id":"21",
+	"name":"Shiv Shakti Colony Rajkot Gujrat",
+	"lat":"22.2876633333333",
+	"long":"70.7562733333333"
+	},
+
+	{
+	"id":"22",
+	"name":"B T Savani Hospital Rajkot Gujrat",
+	"lat":"22.287685",
+	"long":"70.7536733333333"
+	},
+
+	{
+	"id":"23",
+	"name":"Mahila ITI Rajkot Gujrat",
+	"lat":"22.287435",
+	"long":"70.7520833333333"
+	},
+
+	{
+	"id":"24",
+	"name":"Munjka Central Rajkot Gujrat",
+	"lat":"22.2861266666667",
+	"long":"70.7471066666667"
+	},
+
+	{
+	"id":"25",
+	"name":"Kulpati Rajkot Gujrat",
+	"lat":"22.2878983333333",
+	"long":"70.7448866666667"
+	},
+
+	{
+	"id":"26",
+	"name":"Murizka Circle Rajkot Gujrat",
+	"lat":"22.2861633333333",
+	"long":"70.7468716666667"
+	},
+
+	{
+	"id":"27",
+	"name":"Mahila ITI Rajkot Gujrat",
+	"lat":"22.2875316666667",
+	"long":"70.7520483333333"
+	},
+
+	{
+	"id":"28",
+	"name":"BT Savani Hospital Rajkot Gujrat",
+	"lat":"22.2877916666667",
+	"long":"70.7530333333333"
+	},
+
+	{
+	"id":"29",
+	"name":"Akashwani Chowk Rajkot Gujrat",
+	"lat":"22.2878016666667",
+	"long":"70.75951"
+	},
+
+	{
+	"id":"30",
+	"name":"Indubai Mahasatiji Chowk Kotecha Chowk Rajkot Gujrat",
+	"lat":"22.2909",
+	"long":"70.7791533333333"
+	},
+
+	{
+	"id":"31",
+	"name":"Mahila College Chowk Lic Office Rajkot Gujrat",
+	"lat":"22.2936816666667",
+	"long":"70.7862466666667"
+	},
+
+	{
+	"id":"32",
+	"name":"Viswani School Rajkot Gujrat",
+	"lat":"22.288045",
+	"long":"70.7910966666667"
+	},
+
+	{
+	"id":"33",
+	"name":"Ajidam Rajkot Gujrat",
+	"lat":"22.278395",
+	"long":"70.8361133333333"
+	},
+
+	{
+	"id":"34",
+	"name":"Jangalesvara Crossing Bapunagar Rajkot Gujrat",
+	"lat":"22.2826916666667",
+	"long":"70.816795"
+	},
+
+	{
+	"id":"35",
+	"name":"Kanta Stri Vikas Gruh Rajkot Gujrat",
+	"lat":"22.284245",
+	"long":"70.8009733333333"
+	},
+
+	{
+	"id":"36",
+	"name":"Malviya Chowk Rajkot Gujrat",
+	"lat":"22.292312",
+	"long":"70.799189"
+	},
+
+	{
+	"id":"37",
+	"name":"Dharmendrasinhji College Rajkot Gujrat",
+	"lat":"22.2910533333333",
+	"long":"70.793155"
+	},
+
+	{
+	"id":"38",
+	"name":"Jilla Panchayat Chowk Rajkot Gujrat",
+	"lat":"22.2982166666667",
+	"long":"70.7907633333333"
+	},
+
+	{
+	"id":"39",
+	"name":"Aryaland Recidency, Rajkot",
+	"lat":"22.26055",
+	"long":"70.7626483333333"
+	},
+
+	{
+	"id":"40",
+	"name":"Jetco Chowk, Rajkot",
+	"lat":"22.249455",
+	"long":"70.7641833333333"
+	},
+
+	{
+	"id":"41",
+	"name":"Dream City, Rajkot",
+	"lat":"22.2539966666667",
+	"long":"70.7729816666667"
+	},
+
+	{
+	"id":"42",
+	"name":"Mavdi Village, Rajkot",
+	"lat":"22.25629",
+	"long":"70.7791683333333"
+	},
+
+	{
+	"id":"43",
+	"name":"Bapa Sitaram Chowk, Rajkot",
+	"lat":"22.2610183333333",
+	"long":"70.7816583333333"
+	},
+
+	{
+	"id":"44",
+	"name":"Mavdi Chowk, Rajkot",
+	"lat":"22.2656316666667",
+	"long":"70.78515"
+	},
+
+	{
+	"id":"45",
+	"name":"Fuliya Hanuman Temple, Rajkot",
+	"lat":"22.269915",
+	"long":"70.789005"
+	},
+
+	{
+	"id":"46",
+	"name":"Mavdi fire station, Rajkot",
+	"lat":"22.2708883333333",
+	"long":"70.79014"
+	},
+
+	{
+	"id":"47",
+	"name":"Anand Chowk, Rajkot",
+	"lat":"22.2722783333333",
+	"long":"70.79317"
+	},
+
+	{
+	"id":"48",
+	"name":"Jaction Police Station, Rajkot",
+	"lat":"22.31342",
+	"long":"70.8019516666667"
+	},
+
+	{
+	"id":"49",
+	"name":"Aastha Resi, Rameshwer Park, Rajkot",
+	"lat":"22.3248083333333",
+	"long":"70.7945633333333"
+	},
+
+	{
+	"id":"50",
+	"name":"Railnagar, Rajkot",
+	"lat":"22.325905",
+	"long":"70.7917416666667"
+	},
+
+	{
+	"id":"51",
+	"name":"Radhe Park, Gangotri Park, Rajkot",
+	"lat":"22.292229",
+	"long":"70.749721"
+	},
+
+	{
+	"id":"52",
+	"name":"Santoshnagar, Rajkot",
+	"lat":"22.3284683333333",
+	"long":"70.78569"
+	},
+
+	{
+	"id":"53",
+	"name":"Santoshnagar Railway Crossing, Rajkot",
+	"lat":"22.330745",
+	"long":"70.78125"
+	},
+
+	{
+	"id":"54",
+	"name":"Marketing Yard, Rajkot",
+	"lat":"22.299465",
+	"long":"70.8335766666667"
+	},
+
+	{
+	"id":"55",
+	"name":"Dudheshvar Mahadev, Rajkot",
+	"lat":"22.3002433333333",
+	"long":"70.8296966666667"
+	},
+
+	{
+	"id":"56",
+	"name":"Govind Baug, Rajkot",
+	"lat":"22.3001",
+	"long":"70.821065"
+	},
+
+	{
+	"id":"57",
+	"name":"Sardar Vallabhbhai Vidhyalay, Rajkot",
+	"lat":"22.3000566666667",
+	"long":"70.818255"
+	},
+
+	{
+	"id":"58",
+	"name":"Jalaram Chowk, Santkabir Road Corner, Rajkot",
+	"lat":"22.2999733333333",
+	"long":"70.8146283333333"
+	},
+
+	{
+	"id":"59",
+	"name":"Patel Vadi, Rajkot",
+	"lat":"22.30201",
+	"long":"70.8130183333333"
+	},
+
+	{
+	"id":"60",
+	"name":"Parevadi Chowk, Rajkot",
+	"lat":"22.30651",
+	"long":"70.8109483333333"
+	},
+
+	{
+	"id":"61",
+	"name":"Ramkrushna Ashram, Rajkot",
+	"lat":"22.2904566666667",
+	"long":"70.794515"
+	},
+
+	{
+	"id":"62",
+	"name":"KIshanpara Chowk, Rajkot",
+	"lat":"22.2979716666667",
+	"long":"70.7882033333333"
+	},
+
+	{
+	"id":"63",
+	"name":"Indira Circle, Rajkot",
+	"lat":"22.28851",
+	"long":"70.7715016666667"
+	},
+
+	{
+	"id":"64",
+	"name":"Panchayat Nagar, Rajkot",
+	"lat":"22.2878333333333",
+	"long":"70.7657066666667"
+	},
+
+	{
+	"id":"65",
+	"name":"Pushkardham, Rajkot",
+	"lat":"22.2842083333333",
+	"long":"70.7563766666667"
+	},
+
+	{
+	"id":"66",
+	"name":"Vimal Nagar, Rajkot",
+	"lat":"22.2820433333333",
+	"long":"70.753585"
+	},
+
+	{
+	"id":"67",
+	"name":"AG Staff Quarter, Rajkot",
+	"lat":"22.281355",
+	"long":"70.75117"
+	},
+
+	{
+	"id":"68",
+	"name":"Prasheel Park, Rajkot",
+	"lat":"22.2830766666667",
+	"long":"70.7496366666667"
+	},
+
+	{
+	"id":"69",
+	"name":"Saurashtra University, Rajkot",
+	"lat":"22.2904316666667",
+	"long":"70.7437766666667"
+	},
+
+	{
+	"id":"70",
+	"name":"Someswar Mahadev Munjaka Gate, Rajkot",
+	"lat":"22.2873416666667",
+	"long":"70.7418766666667"
+	},
+
+	{
+	"id":"71",
+	"name":"New Munjaka Village, Rajkot",
+	"lat":"22.2887266666667",
+	"long":"70.7412983333333"
+	},
+
+	{
+	"id":"72",
+	"name":"Harivandana College, Rajkot",
+	"lat":"22.2896066666667",
+	"long":"70.73656"
+	},
+
+	{
+	"id":"73",
+	"name":"Shree City Munjaka Village, Rajkot",
+	"lat":"22.28986",
+	"long":"70.7351166666667"
+	},
+
+	{
+	"id":"74",
+	"name":"Madhapar Gaam Gate, Rajkot",
+	"lat":"22.3535716666667",
+	"long":"70.7669683333333"
+	},
+
+	{
+	"id":"75",
+	"name":"Madhapar Gaam, Rajkot",
+	"lat":"22.3358116666667",
+	"long":"70.7669183333333"
+	},
+
+	{
+	"id":"76",
+	"name":"Vakaner socity, Rajkot",
+	"lat":"22.3205",
+	"long":"70.7794133333333"
+	},
+
+	{
+	"id":"77",
+	"name":"Bajrangwadi circle, Rajkot",
+	"lat":"22.317634",
+	"long":"70.779936"
+	},
+
+	{
+	"id":"78",
+	"name":"Bhaktinagar Circle, Rajkot",
+	"lat":"22.2804116666667",
+	"long":"70.8022016666667"
+	},
+
+	{
+	"id":"79",
+	"name":"Sheth High School, Rajkot",
+	"lat":"22.2808633333333",
+	"long":"70.805205"
+	},
+
+	{
+	"id":"80",
+	"name":"Kothariya Colony, Rajkot",
+	"lat":"22.28124",
+	"long":"70.8074866666667"
+	},
+
+	{
+	"id":"81",
+	"name":"Sorathiyawadi Circle, Rajkot",
+	"lat":"22.28195",
+	"long":"70.8107666666667"
+	},
+
+	{
+	"id":"82",
+	"name":"Jagleshwar Crossing, Bapunagar, Rajkot",
+	"lat":"22.2820966666667",
+	"long":"70.8125866666667"
+	},
+
+	{
+	"id":"83",
+	"name":"Satyam Park, Rajkot",
+	"lat":"22.2833733333333",
+	"long":"70.81994"
+	},
+
+	{
+	"id":"84",
+	"name":"Field marshal Chowk, Rajkot",
+	"lat":"22.2843266666667",
+	"long":"70.8254"
+	},
+
+	{
+	"id":"85",
+	"name":"Government Polytechnic, Rajkot",
+	"lat":"22.281009",
+	"long":"70.833886"
+	},
+
+	{
+	"id":"86",
+	"name":"Bahumadi Bhavan, Rajkot",
+	"lat":"22.302425",
+	"long":"70.793235"
+	},
+
+	{
+	"id":"87",
+	"name":"131 Slam Quarter, Rajkot",
+	"lat":"22.3141783333333",
+	"long":"70.7952416666667"
+	},
+
+	{
+	"id":"88",
+	"name":"Julelal Temple, Rajkot",
+	"lat":"22.31457",
+	"long":"70.79675"
+	},
+
+	{
+	"id":"89",
+	"name":"Rafuji Colony, Shashtri Nagar, Rajkot",
+	"lat":"22.3162616666667",
+	"long":"70.7990366666667"
+	},
+
+	{
+	"id":"90",
+	"name":"LIC Chock, Rajkot",
+	"lat":"22.2934833333333",
+	"long":"70.7862216666667"
+	},
+
+	{
+	"id":"91",
+	"name":"Swaminarayan Temple, Mahila College, Rajkot",
+	"lat":"22.2926716666667",
+	"long":"70.7825883333333"
+	},
+
+	{
+	"id":"92",
+	"name":"Amin Road Akshar Road Crossing, Rajkot",
+	"lat":"22.2897833333333",
+	"long":"70.7836066666667"
+	},
+
+	{
+	"id":"93",
+	"name":"Amin Road Civic Center, Rajkot",
+	"lat":"22.2884683333333",
+	"long":"70.781915"
+	},
+
+	{
+	"id":"94",
+	"name":"Hinglajnagar Bharvad Chowk, Rajkot",
+	"lat":"22.2870066666667",
+	"long":"70.7801083333333"
+	},
+
+	{
+	"id":"95",
+	"name":"Astron Society, Rajkot",
+	"lat":"22.2846483333333",
+	"long":"70.78169"
+	},
+
+	{
+	"id":"96",
+	"name":"Suryamukhi Hanuman Chowk, Rajkot",
+	"lat":"22.2802566666667",
+	"long":"70.78406"
+	},
+
+	{
+	"id":"97",
+	"name":"Grand Central Mall, Rajkot",
+	"lat":"22.2777066666667",
+	"long":"70.7810616666667"
+	},
+
+	{
+	"id":"98",
+	"name":"Nana Mava Chowk, Rajkot",
+	"lat":"22.275715",
+	"long":"70.77762"
+	},
+
+	{
+	"id":"99",
+	"name":"Satyasai raod Crossing, Rajkot",
+	"lat":"22.2731716666667",
+	"long":"70.7731516666667"
+	},
+
+	{
+	"id":"100",
+	"name":"Sastrinagar, Rajkot",
+	"lat":"22.27188",
+	"long":"70.770105"
+	},
+
+	{
+	"id":"101",
+	"name":"Alay Park, Rajkot",
+	"lat":"22.2710516666667",
+	"long":"70.7675066666667"
+	},
+
+	{
+	"id":"102",
+	"name":"Vrundavan Road Crossing, Rajkot",
+	"lat":"22.2685333333333",
+	"long":"70.7652983333333"
+	},
+
+	{
+	"id":"103",
+	"name":"Om Residency, Rajkot",
+	"lat":"22.2684316666667",
+	"long":"70.7618416666667"
+	},
+
+	{
+	"id":"104",
+	"name":"Govani Boys Hostel, Rajkot",
+	"lat":"22.2660483333333",
+	"long":"70.76234"
+	},
+
+	{
+	"id":"105",
+	"name":"Ambika Township, Rajkot",
+	"lat":"22.2606583333333",
+	"long":"70.76276"
+	},
+
+	{
+	"id":"106",
+	"name":"Jivraj Park, Rajkot",
+	"lat":"22.2609183333333",
+	"long":"70.7679416666667"
+	},
+
+	{
+	"id":"107",
+	"name":"Gurukul, Rajkot",
+	"lat":"22.2792316666667",
+	"long":"70.8001783333333"
+	},
+
+	{
+	"id":"108",
+	"name":"Trikonbaug, Rajkot",
+	"lat":"22.2954216666667",
+	"long":"70.8016233333333"
+	},
+
+	{
+	"id":"109",
+	"name":"Jubilee baug, Rajkot",
+	"lat":"22.2999316666667",
+	"long":"70.8012066666667"
+	},
+
+	{
+	"id":"110",
+	"name":"Popatpara Central Jail, Rajkot",
+	"lat":"22.31758",
+	"long":"70.8007733333333"
+	},
+
+	{
+	"id":"111",
+	"name":"Central Ware House, Rajkot",
+	"lat":"22.324415",
+	"long":"70.7961533333333"
+	},
+
+	{
+	"id":"112",
+	"name":"Bhakti Park, Rajkot",
+	"lat":"22.330055",
+	"long":"70.79341"
+	},
+
+	{
+	"id":"113",
+	"name":"Rajkamal Petrol Pump, Rajkot",
+	"lat":"22.2481333333333",
+	"long":"70.8001016666667"
+	},
+
+	{
+	"id":"114",
+	"name":"P and T Colony, Gitanagar, Rajkot",
+	"lat":"22.253575",
+	"long":"70.800065"
+	},
+
+	{
+	"id":"115",
+	"name":"S T Workshop, Rajkot",
+	"lat":"22.25812",
+	"long":"70.8000016666667"
+	},
+
+	{
+	"id":"116",
+	"name":"Panchsheel Society, Rajkot",
+	"lat":"22.2624866666667",
+	"long":"70.7999333333333"
+	},
+
+	{
+	"id":"117",
+	"name":"Shivnagar, Doshi Hospital, Rajkot",
+	"lat":"22.264855",
+	"long":"70.7997733333333"
+	},
+
+	{
+	"id":"118",
+	"name":"PDM College, Rajkot",
+	"lat":"22.2682433333333",
+	"long":"70.799395"
+	},
+
+	{
+	"id":"119",
+	"name":"Makkam Chowk, Rajkot",
+	"lat":"22.27979",
+	"long":"70.799187"
+	},
+
+	{
+	"id":"120",
+	"name":"Bombay Hotel, Rajkot",
+	"lat":"22.2844566666667",
+	"long":"70.7999666666667"
+	},
+
+	{
+	"id":"121",
+	"name":"ST Bus Stand, Rajkot",
+	"lat":"22.291515",
+	"long":"70.8017683333333"
+	},
+
+	{
+	"id":"122",
+	"name":"Central Jail, Rajkot",
+	"lat":"22.317415",
+	"long":"70.800985"
+	},
+
+	{
+	"id":"123",
+	"name":"Junction Police Station, Rajkot",
+	"lat":"22.3138116666667",
+	"long":"70.801895"
+	},
+
+	{
+	"id":"124",
+	"name":"Junction Railway Station, Rajkot",
+	"lat":"22.3114666666667",
+	"long":"70.80245"
+	},
+
+	{
+	"id":"125",
+	"name":"Kothicompound, Rajkot",
+	"lat":"22.3077733333333",
+	"long":"70.8032883333333"
+	},
+
+	{
+	"id":"126",
+	"name":"IP Mission School, Rajkot",
+	"lat":"22.3045516666667",
+	"long":"70.80385"
+	},
+
+	{
+	"id":"127",
+	"name":"Hospital Chowk, Rajkot",
+	"lat":"22.30348",
+	"long":"70.80193"
+	},
+
+	{
+	"id":"128",
+	"name":"Aryasamaj, Rajkot",
+	"lat":"22.2872566666667",
+	"long":"70.8011166666667"
+	},
+
+	{
+	"id":"129",
+	"name":"Kadvibai School, Rajkot",
+	"lat":"22.2834833333333",
+	"long":"70.80057"
+	},
+
+	{
+	"id":"130",
+	"name":"Gopalnagar, Choro, Rajkot",
+	"lat":"22.2736333333333",
+	"long":"70.800355"
+	},
+
+	{
+	"id":"131",
+	"name":"Jasani School, Rajkot",
+	"lat":"22.2708116666667",
+	"long":"70.80052"
+	},
+
+	{
+	"id":"132",
+	"name":"Ambaji Kadva Plot, Rajkot",
+	"lat":"22.2684466666667",
+	"long":"70.796285"
+	},
+
+	{
+	"id":"133",
+	"name":"Swaminarayan Chowk, Rajkot",
+	"lat":"22.2681616666667",
+	"long":"70.7935883333333"
+	},
+
+	{
+	"id":"134",
+	"name":"Guruprashad Chok, Rajkot",
+	"lat":"22.264225",
+	"long":"70.7937233333333"
+	},
+
+	{
+	"id":"135",
+	"name":"Panchashil Soc Approch Road, Rajkot",
+	"lat":"22.2622683333333",
+	"long":"70.79399"
+	},
+
+	{
+	"id":"136",
+	"name":"Gokuldham, Rajkot",
+	"lat":"22.2602233333333",
+	"long":"70.7941016666667"
+	},
+
+	{
+	"id":"137",
+	"name":"Gokul Approch Nirav Complex, Rajkot",
+	"lat":"22.2576166666667",
+	"long":"70.794345"
+	},
+
+	{
+	"id":"138",
+	"name":"Dr Aambedakar Chok, Rajkot",
+	"lat":"22.2551066666667",
+	"long":"70.794655"
+	},
+
+	{
+	"id":"139",
+	"name":"Jogarana Chok, Rajkot",
+	"lat":"22.2531866666667",
+	"long":"70.795345"
+	},
+
+	{
+	"id":"140",
+	"name":"Punit Nagar 66KV, Rajkot",
+	"lat":"22.2488933333333",
+	"long":"70.7946283333333"
+	},
+
+	{
+	"id":"141",
+	"name":"53 Quater Popatpara, Rajkot",
+	"lat":"22.329107",
+	"long":"70.79997"
+	},
+
+	{
+	"id":"142",
+	"name":"Chitralekha Chowk, Rajkot",
+	"lat":"22.296545",
+	"long":"70.7959066666667"
+	},
+
+	{
+	"id":"143",
+	"name":"Azad Chowk, Rajkot",
+	"lat":"22.299145",
+	"long":"70.7813283333333"
+	},
+
+	{
+	"id":"144",
+	"name":"Alkapuri, Rajkot",
+	"lat":"22.29972",
+	"long":"70.7782066666667"
+	},
+
+	{
+	"id":"145",
+	"name":"Hanuman Madhi, Rajkot",
+	"lat":"22.3003966666667",
+	"long":"70.775095"
+	},
+
+	{
+	"id":"146",
+	"name":"Brahmasamaj Chowk, Rajkot",
+	"lat":"22.3009883333333",
+	"long":"70.771735"
+	},
+
+	{
+	"id":"147",
+	"name":"Raiya Chowk, Rajkot",
+	"lat":"22.301315",
+	"long":"70.768393"
+	},
+
+	{
+	"id":"148",
+	"name":"Gautam Nagar, Rajkot",
+	"lat":"22.2839416666667",
+	"long":"70.7874783333333"
+	},
+
+	{
+	"id":"149",
+	"name":"Chandreshvadi Chowk, Rajkot",
+	"lat":"22.2808",
+	"long":"70.7857983333333"
+	},
+
+	{
+	"id":"150",
+	"name":"Madhunagar, Rajnagar Society, Rojkot",
+	"lat":"22.2754116666667",
+	"long":"70.786725"
+	},
+
+	{
+	"id":"151",
+	"name":"Mayani Chowk, Rajkot",
+	"lat":"22.2741366666667",
+	"long":"70.7874416666667"
+	},
+
+	{
+	"id":"152",
+	"name":"Atmiya College, Central School, Rajkot",
+	"lat":"22.2813783333333",
+	"long":"70.765845"
+	},
+
+	{
+	"id":"153",
+	"name":"Crystal Mall, Rajkot",
+	"lat":"22.279715",
+	"long":"70.76375"
+	},
+
+	{
+	"id":"154",
+	"name":"AG Society, Rajkot",
+	"lat":"22.275995",
+	"long":"70.7597183333333"
+	},
+
+	{
+	"id":"155",
+	"name":"Everest Park, Rajkot",
+	"lat":"22.2740316666667",
+	"long":"70.7575233333333"
+	},
+
+	{
+	"id":"156",
+	"name":"Mota Mauva, Rajkot",
+	"lat":"22.2714666666667",
+	"long":"70.7536783333333"
+	},
+
+	{
+	"id":"157",
+	"name":"Rangoli Park, Lakshmino Dholo, Rajkot",
+	"lat":"22.271155",
+	"long":"70.7496083333333"
+	},
+
+	{
+	"id":"158",
+	"name":"Cosmoplex Cinema, Rajkot",
+	"lat":"22.2702183333333",
+	"long":"70.74196"
+	},
+
+	{
+	"id":"159",
+	"name":"Vrukshmandir, Rajkot",
+	"lat":"22.2690133333333",
+	"long":"70.7327933333333"
+	},
+
+	{
+	"id":"160",
+	"name":"Uma PTC College, Rajkot",
+	"lat":"22.2678266666667",
+	"long":"70.7262466666667"
+	},
+
+	{
+	"id":"161",
+	"name":"Haripar Village, Rajkot",
+	"lat":"22.265155",
+	"long":"70.715885"
+	},
+
+	{
+	"id":"162",
+	"name":"VVP Engineering College, Rajkot",
+	"lat":"22.2641966666667",
+	"long":"70.7149366666667"
+	},
+
+	{
+	"id":"163",
+	"name":"Virada Vajadi Village, Rajkot",
+	"lat":"22.2603916666667",
+	"long":"70.7098583333333"
+	},
+
+	{
+	"id":"164",
+	"name":"Vagudal, Rajkot",
+	"lat":"22.2580216666667",
+	"long":"70.6998766666667"
+	},
+
+	{
+	"id":"165",
+	"name":"Vadvajadi Village 1, Rajkot",
+	"lat":"22.2548616666667",
+	"long":"70.6922666666667"
+	},
+
+	{
+	"id":"166",
+	"name":"Vadvajadi Village 2, Rajkot",
+	"lat":"22.2511683333333",
+	"long":"70.68946"
+	},
+
+	{
+	"id":"167",
+	"name":"Greenland Chowk, Rajkot",
+	"lat":"22.3115166666667",
+	"long":"70.8281466666667"
+	},
+
+	{
+	"id":"168",
+	"name":"RTO Office, Rajkot",
+	"lat":"22.3040583333333",
+	"long":"70.8315116666667"
+	},
+
+	{
+	"id":"169",
+	"name":"RMC Transport Nagar, Rajkot",
+	"lat":"22.2985933333333",
+	"long":"70.8332116666667"
+	},
+
+	{
+	"id":"170",
+	"name":"Dudhsagar Road Corssing, Rajkot",
+	"lat":"22.2927233333333",
+	"long":"70.8352033333333"
+	},
+
+	{
+	"id":"171",
+	"name":"Aji Vasahat, Rajkot",
+	"lat":"22.27362",
+	"long":"70.8311983333333"
+	},
+
+	{
+	"id":"172",
+	"name":"Pardi Road Crossing, Rajkot",
+	"lat":"22.24848",
+	"long":"70.804615"
+	},
+
+	{
+	"id":"173",
+	"name":"Gondal Chowk, Rajkot",
+	"lat":"22.2432366666667",
+	"long":"70.7999566666667"
+	},
+
+	{
+	"id":"174",
+	"name":"Sichaynagar, Rajkot",
+	"lat":"22.30514",
+	"long":"70.7768783333333"
+	},
+
+	{
+	"id":"175",
+	"name":"Sankalp Siddh Park, Rajkot",
+	"lat":"22.3062983333333",
+	"long":"70.7811133333333"
+	},
+
+	{
+	"id":"176",
+	"name":"Geet Gurjari Crossing, Rajkot",
+	"lat":"22.3070983333333",
+	"long":"70.7867483333333"
+	},
+
+	{
+	"id":"177",
+	"name":"Police Headquarter, Rajkot",
+	"lat":"22.3074716666667",
+	"long":"70.7902183333333"
+	},
+
+	{
+	"id":"178",
+	"name":"Sardabag, Rajkot",
+	"lat":"22.3026333333333",
+	"long":"70.794815"
+	},
+
+	{
+	"id":"179",
+	"name":"Chaudhari High School, Rajkot",
+	"lat":"22.3019566666667",
+	"long":"70.798085"
+	},
+
+	{
+	"id":"180",
+	"name":"Kothariya Chowk, Rajkot",
+	"lat":"22.25827",
+	"long":"70.815758"
+	},
+
+	{
+	"id":"181",
+	"name":"Radha Meera Industrial Area, Rajkot",
+	"lat":"22.2682883333333",
+	"long":"70.8262683333333"
+	},
+
+	{
+	"id":"182",
+	"name":"Lalpark Chowk, Rajkot",
+	"lat":"22.2565216666667",
+	"long":"70.8043683333333"
+	},
+
+	{
+	"id":"183",
+	"name":"New Lalbhahadur Society, Pardi Chowk, Rajkot",
+	"lat":"22.2546583333333",
+	"long":"70.8041866666667"
+	},
+
+	{
+	"id":"184",
+	"name":"Satya Prakash School, Rajkot",
+	"lat":"22.2549883333333",
+	"long":"70.8073366666667"
+	},
+
+	{
+	"id":"185",
+	"name":"Vinod Nagar, Rajkot",
+	"lat":"22.2565866666667",
+	"long":"70.8116983333333"
+	},
+
+	{
+	"id":"186",
+	"name":"Gundawadi Police chowki,Rajkot",
+	"lat":"22.2887033333333",
+	"long":"70.8078483333333"
+	},
+
+	{
+	"id":"187",
+	"name":"Jilla Garden Chowk,Rajkot",
+	"lat":"22.2887316666667",
+	"long":"70.81384"
+	},
+
+	{
+	"id":"188",
+	"name":"Ramnath para B Division Police Station,Rajkot",
+	"lat":"22.2912583333333",
+	"long":"70.8141233333333"
+	},
+
+	{
+	"id":"189",
+	"name":"Chunarvad Chowk,Rajkot ",
+	"lat":"22.2936116666667",
+	"long":"70.82023"
+	},
+
+	{
+	"id":"190",
+	"name":"Rajkot Dairy,Rajkot",
+	"lat":"22.2939116666667",
+	"long":"70.826185"
+	},
+
+	{
+	"id":"191",
+	"name":"Gujarat Housing board Quarter Sagar chowk,Rajkot",
+	"lat":"22.2927566666667",
+	"long":"70.8320816666667"
+	},
+
+	{
+	"id":"192",
+	"name":"Swati Society,Rajkot",
+	"lat":"22.279315",
+	"long":"70.7697983333333"
+	},
+
+	{
+	"id":"193",
+	"name":"Alap Heritage,Rajkot",
+	"lat":"22.2761716666667",
+	"long":"70.7713916666667"
+	},
+
+	{
+	"id":"194",
+	"name":"Phulvadi Park,Rajkot",
+	"lat":"22.2744133333333",
+	"long":"70.7725383333333"
+	},
+
+	{
+	"id":"195",
+	"name":"Ghanteshwar SRP Camp Road Crossing,Rajkot",
+	"lat":"22.3408116666667",
+	"long":"70.74391"
+	},
+
+	{
+	"id":"196",
+	"name":"Parapipaliya Gaam,Rajkot",
+	"lat":"22.342665",
+	"long":"70.7380166666667"
+	},
+
+	{
+	"id":"197",
+	"name":"Ekta Society,Rajkot",
+	"lat":"22.3446866666667",
+	"long":"70.73404"
+	},
+
+	{
+	"id":"198",
+	"name":"AJI GIDC,Rajkot",
+	"lat":"22.2828",
+	"long":"70.8168166666667"
+	},
+
+	{
+	"id":"199",
+	"name":"Mansarovar Society,Rajkot",
+	"lat":"22.2770683333333",
+	"long":"70.8386116666667"
+	},
+
+	{
+	"id":"200",
+	"name":"Aarti Industrial Area,Rajkot",
+	"lat":"22.275015",
+	"long":"70.8516666666667"
+	},
+
+	{
+	"id":"201",
+	"name":"Thebachda Mahika Patlu,Rajkot",
+	"lat":"22.2745566666667",
+	"long":"70.8607683333333"
+	},
+
+	{
+	"id":"202",
+	"name":"Krishna International school,Rajkot",
+	"lat":"22.2491816666667",
+	"long":"70.8789883333333"
+	},
+
+	{
+	"id":"203",
+	"name":"Kalipat,Rajkot",
+	"lat":"22.2430066666667",
+	"long":"70.8903166666667"
+	},
+
+	{
+	"id":"204",
+	"name":"Rk University,Rajkot",
+	"lat":"22.2396816666667",
+	"long":"70.8963966666667"
+	},
+
+	{
+	"id":"205",
+	"name":"Bharad Engineering College,Rajkot",
+	"lat":"22.23675",
+	"long":"70.9014866666667"
+	},
+
+	{
+	"id":"206",
+	"name":"Tramba Village,Rajkot",
+	"lat":"22.2284883333333",
+	"long":"70.9106033333333"
+	},
+
+	{
+	"id":"207",
+	"name":"Sadhuvasvani School,Rajkot",
+	"lat":"22.2894883333333",
+	"long":"70.7614166666667"
+	},
+
+	{
+	"id":"208",
+	"name":"JanakPuri ajanta Park,Rajkot",
+	"lat":"22.2920283333333",
+	"long":"70.7599666666667"
+	},
+
+	{
+	"id":"209",
+	"name":"Balaji Park Sattelite Park,Rajkot",
+	"lat":"22.29457",
+	"long":"70.75863"
+	},
+
+	{
+	"id":"210",
+	"name":"Alap Green city,Rajkot",
+	"lat":"22.3005733333333",
+	"long":"70.7570833333333"
+	},
+
+	{
+	"id":"211",
+	"name":"Raiya Village,Rajkot",
+	"lat":"22.2990383333333",
+	"long":"70.7514933333333"
+	},
+
+	{
+	"id":"212",
+	"name":"Kadavibai School,Rajkot",
+	"lat":"22.2835083333333",
+	"long":"70.8005716666667"
+	},
+
+	{
+	"id":"213",
+	"name":"ST Workshop,Rajkot",
+	"lat":"22.2582133333333",
+	"long":"70.800175"
+	},
+
+	{
+	"id":"214",
+	"name":"PT Colony Gita Nagar,Rajkot",
+	"lat":"22.25331",
+	"long":"70.8002033333333"
+	},
+
+	{
+	"id":"215",
+	"name":"Av Jasani TB Hospital,Rajkot",
+	"lat":"22.21429",
+	"long":"70.80148"
+	},
+
+	{
+	"id":"216",
+	"name":"Khokhad Dal ,Rajkot",
+	"lat":"22.2050733333333",
+	"long":"70.8007566666667"
+	},
+
+	{
+	"id":"217",
+	"name":"Astha Green City,Rajkot",
+	"lat":"22.1991083333333",
+	"long":"70.8003533333333"
+	},
+
+	{
+	"id":"218",
+	"name":"Paladi Village,Rajkot",
+	"lat":"22.1823533333333",
+	"long":"70.7989833333333"
+	},
+
+	{
+	"id":"219",
+	"name":"Sitala Mataji temple,Rajkot",
+	"lat":"22.1736433333333",
+	"long":"70.796425"
+	},
+
+	{
+	"id":"220",
+	"name":"Maruti nagar,Rajkot",
+	"lat":"22.1666183333333",
+	"long":"70.7943483333333"
+	},
+
+	{
+	"id":"221",
+	"name":"Shapar Veraval,Rajkot",
+	"lat":"22.1575633333333",
+	"long":"70.7916216666667"
+	},
+
+	{
+	"id":"222",
+	"name":"Sarojeeni Nayadu School Ambaji Kadva Plot,Rajkot",
+	"lat":"22.2689883333333",
+	"long":"70.7934783333333"
+	},
+
+	{
+	"id":"223",
+	"name":"Ruda Office,Rajkot",
+	"lat":"22.308405",
+	"long":"70.796695"
+	},
+
+	{
+	"id":"224",
+	"name":"Special school For boys,Rajkot",
+	"lat":"22.3116783333333",
+	"long":"70.79381"
+	},
+
+	{
+	"id":"225",
+	"name":"jagruti Shramjivi Society,Rajkot",
+	"lat":"22.31358",
+	"long":"70.7880466666667"
+	},
+
+	{
+	"id":"226",
+	"name":"Bhomesvar Airport,Rajkot",
+	"lat":"22.3164833333333",
+	"long":"70.787625"
+	},
+
+	{
+	"id":"227",
+	"name":"Railway colony,Rajkot",
+	"lat":"22.318325",
+	"long":"70.7854566666667"
+	},
+
+	{
+	"id":"228",
+	"name":"Wankaner Society,Rajkot",
+	"lat":"22.3205566666667",
+	"long":"70.78229"
+	},
+
+	{
+	"id":"229",
+	"name":"Gayatridham,Rajkot",
+	"lat":"22.3244183333333",
+	"long":"70.7764633333333"
+	},
+
+	{
+	"id":"230",
+	"name":"Vora society,Rajkot",
+	"lat":"22.32698",
+	"long":"70.7725766666667"
+	},
+
+	{
+	"id":"231",
+	"name":"Madhapar Village,Rajkot",
+	"lat":"22.33121",
+	"long":"70.7662683333333"
+	},
+
+	{
+	"id":"232",
+	"name":"Shethnagar,Rajkot",
+	"lat":"22.3341916666667",
+	"long":"70.7600183333333"
+	},
+
+	{
+	"id":"233",
+	"name":"Sainik society,Rajkot",
+	"lat":"22.3348383333333",
+	"long":"70.7578133333333"
+	},
+
+	{
+	"id":"234",
+	"name":"Ghanteshvar Park,Rajkot",
+	"lat":"22.335795",
+	"long":"70.7543016666667"
+	},
+
+	{
+	"id":"235",
+	"name":"Ghanteshvar Village,Rajkot",
+	"lat":"22.3394266666667",
+	"long":"70.74684"
+	},
+
+	{
+	"id":"236",
+	"name":"Mochinagar,Rajkot",
+	"lat":"22.3137833333333",
+	"long":"70.7745733333333"
+	},
+
+	{
+	"id":"237",
+	"name":"Aksharnagar,Rajkot",
+	"lat":"22.3112483333333",
+	"long":"70.7756566666667"
+	},
+
+	{
+	"id":"238",
+	"name":"Lakhno Bunglow,Rajkot",
+	"lat":"22.3099183333333",
+	"long":"70.773475"
+	},
+
+	{
+	"id":"239",
+	"name":"Jivantika main Road Crossing,Rajkot",
+	"lat":"22.3103583333333",
+	"long":"70.7712416666667"
+	},
+
+	{
+	"id":"240",
+	"name":"Amrapali Fatak,Rajkot",
+	"lat":"22.2987616666667",
+	"long":"70.7839266666667"
+	},
+
+	{
+	"id":"241",
+	"name":"Limda Chowk,Rajkot",
+	"lat":"22.2964083333333",
+	"long":"70.7983266666667"
+	},
+
+	{
+	"id":"242",
+	"name":"Fullchhab Chowk,Rajkot",
+	"lat":"22.29859",
+	"long":"70.7938033333333"
+	},
+
+	{
+	"id":"243",
+	"name":"Kothariya village,Rajkot",
+	"lat":"22.235211",
+	"long":"70.817469"
+	},
+
+	{
+	"id":"244",
+	"name":"Kothariya housing,Rajkot",
+	"lat":"22.2437433333333",
+	"long":"70.8176616666667"
+	},
+
+	{
+	"id":"245",
+	"name":"Ranuja Temple,Rajkot",
+	"lat":"22.2476616666667",
+	"long":"70.81826"
+	},
+
+	{
+	"id":"246",
+	"name":"Gokulpark,Rajkot",
+	"lat":"22.2531733333333",
+	"long":"70.818045"
+	},
+
+	{
+	"id":"247",
+	"name":"Hudco Police Chowki,",
+	"lat":"22.2628783333333",
+	"long":"70.8146466666667"
+	},
+
+	{
+	"id":"248",
+	"name":"Ghanshyam nagar nanda hall,Rajkot",
+	"lat":"22.2695366666667",
+	"long":"70.8131133333333"
+	},
+
+	{
+	"id":"249",
+	"name":"Devpara,Rajkot",
+	"lat":"22.2735983333333",
+	"long":"70.812575"
+	},
+
+	{
+	"id":"250",
+	"name":"nilkanth cinema,Rajkot",
+	"lat":"22.275835",
+	"long":"70.812105"
+	},
+
+	{
+	"id":"251",
+	"name":"50 Feet Road Crossing,Rajkot",
+	"lat":"22.2790333333333",
+	"long":"70.8112683333333"
+	},
+
+	{
+	"id":"252",
+	"name":"Punitnagar Jetco 66 KVA,Rajkot",
+	"lat":"22.24921",
+	"long":"70.794525"
+	},
+
+	{
+	"id":"253",
+	"name":"Bajarangavadi,Rajkot",
+	"lat":"22.31902",
+	"long":"70.7845766666667"
+	},
+
+	{
+	"id":"254",
+	"name":"Jivraj Hospital, Rajkot",
+	"lat":"22.2722883333333",
+	"long":"70.8043966666667"
+	},
+
+	{
+	"id":"255",
+	"name":"Trishul Chowk, Rajkot",
+	"lat":"22.2698266666667",
+	"long":"70.8045616666667"
+	},
+
+	{
+	"id":"256",
+	"name":"Pipliya Hall (Bhakti Hall), Rajkot",
+	"lat":"22.26887",
+	"long":"70.805395"
+	},
+
+	{
+	"id":"257",
+	"name":"Babariya Colony, Rajkot",
+	"lat":"22.2643466666667",
+	"long":"70.8052183333333"
+	},
+
+	{
+	"id":"258",
+	"name":"Ahir Chowk, Rajkot",
+	"lat":"22.2615416666667",
+	"long":"70.804825"
+	},
+
+	{
+	"id":"259",
+	"name":"Shyam Hall, Rajkot",
+	"lat":"22.261895",
+	"long":"70.807915"
+	},
+
+	{
+	"id":"260",
+	"name":"Patel chowk, Rajkot",
+	"lat":"22.262745",
+	"long":"70.8108533333333"
+	},
+
+	{
+	"id":"261",
+	"name":"New Subhashnagar, Rajkot",
+	"lat":"22.26524",
+	"long":"70.8114466666667"
+	},
+
+	{
+	"id":"262",
+	"name":"Sahakar Society, Rajkot",
+	"lat":"22.26975",
+	"long":"70.8082683333333"
+	},
+
+	{
+	"id":"263",
+	"name":"Valkeshwar Society, Rajkot",
+	"lat":"22.2715083333333",
+	"long":"70.8059616666667"
+	},
+
+	{
+	"id":"264",
+	"name":"Jaljit Hall, Rajkot",
+	"lat":"22.27632",
+	"long":"70.8062116666667"
+	},
+
+	{
+	"id":"265",
+	"name":"Ranchod Das Ashram, Rajkot",
+	"lat":"22.30773",
+	"long":"70.817915"
+	},
+
+	{
+	"id":"266",
+	"name":"Gurudev Park, Rajkot",
+	"lat":"22.3089816666667",
+	"long":"70.820315"
+	},
+
+	{
+	"id":"267",
+	"name":"Shree Ram Park,Kuvadva, Rajkot",
+	"lat":"22.3117",
+	"long":"70.8286083333333"
+	},
+
+	{
+	"id":"268",
+	"name":"Jaction Railway Station, Rajkot",
+	"lat":"22.31342",
+	"long":"70.8019516666667"
+	},
+
+	{
+	"id":"269",
+	"name":"Bhagwati Para, (Jai  Parakash Society), Rajkot",
+	"lat":"22.3198666666667",
+	"long":"70.8073216666667"
+	},
+
+	{
+	"id":"270",
+	"name":"Jai  Parakash Society, Rajkot",
+	"lat":"22.3189233333333",
+	"long":"70.8074166666667"
+	},
+
+	{
+	"id":"271",
+	"name":"Bhagwati Para police Chowki, Rajkot",
+	"lat":"22.3165866666667",
+	"long":"70.8081433333333"
+	},
+
+	{
+	"id":"272",
+	"name":"Mahakali Society, Rajkot",
+	"lat":"22.3155833333333",
+	"long":"70.8088466666667"
+	},
+
+	{
+	"id":"273",
+	"name":"Bhagwati Para Street no 6, Rajkot",
+	"lat":"22.3155833333333",
+	"long":"70.8088466666667"
+	},
+
+	{
+	"id":"274",
+	"name":"Kesri Hind Bridge, Rajkot",
+	"lat":"22.3051383333333",
+	"long":"70.8066466666667"
+	},
+
+	{
+	"id":"275",
+	"name":", Rajkot",
+	"lat":"22.28446",
+	"long":"70.8000233333333"
+	},
+
+	{
+	"id":"276",
+	"name":"Bahktinager Station , Rajkot",
+	"lat":"22.28284",
+	"long":"70.794805"
+	},
+
+	{
+	"id":"277",
+	"name":"Savshrai Society, Rajkot",
+	"lat":"22.27369",
+	"long":"70.7953633333333"
+	},
+
+	{
+	"id":"278",
+	"name":"Anand Banglow chowk, Rajkot",
+	"lat":"22.2729233333333",
+	"long":"70.7936866666667"
+	},
+
+	{
+	"id":"279",
+	"name":"Ashok Garden, Rajkot",
+	"lat":"22.27449",
+	"long":"70.793085"
+	},
+
+	{
+	"id":"280",
+	"name":"Umakant Pandit, Rajkot",
+	"lat":"22.27485",
+	"long":"70.7902816666667"
+	},
+
+	{
+	"id":"281",
+	"name":"Rajnagar Main Road Crosiing, Rajkot",
+	"lat":"22.2737633333333",
+	"long":"70.7876466666667"
+	},
+
+	{
+	"id":"282",
+	"name":"Chandra Nagar Vegitable, Rajkot",
+	"lat":"22.2733183333333",
+	"long":"70.78664"
+	},
+
+	{
+	"id":"283",
+	"name":"Akshar Vatika (Madvi), Rajkot",
+	"lat":"22.2661266666667",
+	"long":"70.7702033333333"
+	},
+
+	{
+	"id":"284",
+	"name":"Madhapur Gaam Gate, Rajkot",
+	"lat":"22.3535716666667",
+	"long":"70.7669683333333"
+	},
+
+	{
+	"id":"285",
+	"name":"Madhapur Gaam, Rajkot",
+	"lat":"22.3358116666667",
+	"long":"70.7669183333333"
+	},
+
+	{
+	"id":"286",
+	"name":"Vakaner Society, Rajkot",
+	"lat":"22.3205",
+	"long":"70.7794133333333"
+	},
+
+	{
+	"id":"287",
+	"name":"Shivdhara Residency, Rajkot",
+	"lat":"22.31631",
+	"long":"70.826865"
+	},
+
+	{
+	"id":"288",
+	"name":"Jai jawan Jai Kisan Society, Rajkot",
+	"lat":"22.3226916666667",
+	"long":"70.822735"
+	},
+
+	{
+	"id":"289",
+	"name":"Indraprasth Society, Rajkot",
+	"lat":"22.3265716666667",
+	"long":"70.8197083333333"
+	},
+
+	{
+	"id":"290",
+	"name":"Velnathpara(Street No 17) , Rajkot",
+	"lat":"22.3345316666667",
+	"long":"70.8119733333333"
+	},
+
+	{
+	"id":"291",
+	"name":"150 feet ring road,- Morbi road crossing, Rajkot",
+	"lat":"22.3397066666667",
+	"long":"70.8091766666667"
+	},
+
+	{
+	"id":"292",
+	"name":"Bedi Village, Rajkot",
+	"lat":"22.3462533333333",
+	"long":"70.808145"
+	},
+
+	{
+	"id":"293",
+	"name":"Bedi Marketing Yard, Rajkot",
+	"lat":"22.3523366666667",
+	"long":"70.8048216666667"
+	},
+
+	{
+	"id":"294",
+	"name":"Marwadi college , Rajkot",
+	"lat":"22.3678433333333",
+	"long":"70.79969"
+	},
+
+	{
+	"id":"295",
+	"name":"ioc,Rajkot",
+	"lat":"22.3883766666667",
+	"long":"70.7977616666667"
+	},
+
+	{
+	"id":"296",
+	"name":"Gauridad village, Rajkot",
+	"lat":"22.3968416666667",
+	"long":"70.7945916666667"
+	},
+
+	{
+	"id":"297",
+	"name":"Ratanpur Telephone Exchange, Rajkot",
+	"lat":"22.40598",
+	"long":"70.79004"
+	},
+
+	{
+	"id":"298",
+	"name":"Kankot Kalawad road, Rajkot",
+	"lat":"22.2694033333333",
+	"long":"70.73547"
+	},
+
+	{
+	"id":"299",
+	"name":"Labhubhai Triveni engineering college, Rajkot",
+	"lat":"22.2478416666667",
+	"long":"70.7383516666667"
+	},
+
+	{
+	"id":"300",
+	"name":"Government Engineering College, Rajkot",
+	"lat":"22.2447966666667",
+	"long":"70.7429766666667"
+	},
+
+	{
+	"id":"301",
+	"name":"A.G. Society, Rajkot",
+	"lat":"22.2770516666667",
+	"long":"70.7606583333333"
+	},
+
+	{
+	"id":"302",
+	"name":"Varundavan Society, Rajkot",
+	"lat":"22.2781083333333",
+	"long":"70.7619416666667"
+	},
+
+	{
+	"id":"303",
+	"name":"Kkv,Rajkot",
+	"lat":"22.2857183333333",
+	"long":"70.7709866666667"
+	},
+
+	{
+	"id":"304",
+	"name":"Navagam,Rajkot",
+	"lat":"22.316322",
+	"long":"70.839344"
+	},
+
+	{
+	"id":"305",
+	"name":"Kuvadava police chowki,Rajkot",
+	"lat":"22.31398",
+	"long":"70.834902"
+	},
+
+	{
+	"id":"306",
+	"name":"Arpit Engineering College Hadala",
+	"lat":"22.435977",
+	"long":"70.78144"
+	},
+
+	{
+	"id":"307",
+	"name":"GIDC Gate3 Rajkot,Gujrat",
+	"lat":"22.24665",
+	"long":"70.673617"
+	},
+
+	{
+	"id":"308",
+	"name":"Parsananagar Rajkot,Gujrat",
+	"lat":"22.317969",
+	"long":"70.79586"
+	},
+
+	{
+	"id":"309",
+	"name":"HN Shukla College",
+	"lat":"22.295146",
+	"long":"70.8604"
+	},
+
+	{
+	"id":"310",
+	"name":"Raiyadhar Slum Quarter, rajkot",
+	"lat":"22.31573",
+	"long":"70.755393"
+	},
+
+	{
+	"id":"311",
+	"name":"Ramji Temple ,Ratanpar",
+	"lat":"22.409624",
+	"long":"70.788949"
+	},
+
+	{
+	"id":"312",
+	"name":"Santoshinagar, Rajkot,Gujrat",
+	"lat":"22.3302",
+	"long":"70.79353"
+	},
+
+	{
+	"id":"313",
+	"name":"Ghanteshvar SRP Camp G company",
+	"lat":"22.325136",
+	"long":"70.74434"
+	},
+
+	{
+	"id":"314",
+	"name":"Wockhardt Hospital,Rajkot Gujrat",
+	"lat":"22.288043",
+	"long":"70.774712"
+	},
+
+	{
+	"id":"315",
+	"name":"Swapnalok Residency,Rajkot Gujrat",
+	"lat":"22.310519",
+	"long":"70.766282"
+	},
+
+	{
+	"id":"316",
+	"name":"Saurashtra university gate,rajkot Gujrat",
+	"lat":"22.289644",
+	"long":"70.740462"
+	},
+
+	{
+	"id":"317",
+	"name":"Kotecha Chowk,rajkot Gujrat",
+	"lat":"22.290406",
+	"long":"70.778584"
+	},
+
+	{
+	"id":"318",
+	"name":"Punitnagar ,Rajkot,Gujrat",
+	"lat":"22.247472",
+	"long":"70.790963"
+	},
+
+	{
+	"id":"319",
+	"name":"Africa Colony,rajkot Gujrat",
+	"lat":"22.291437",
+	"long":"70.773213"
+	},
+
+	{
+	"id":"320",
+	"name":"Jay Gopal Chowk,rajkot Gujrat",
+	"lat":"22.295767",
+	"long":"70.762049"
+	},
+
+	{
+	"id":"321",
+	"name":"Patidar chowk,rajkot Gujrat",
+	"lat":"22.294239",
+	"long":"70.754589"
+	},
+
+	{
+	"id":"322",
+	"name":"Rajkot Mahanagar Palika Aavas,rajkot Gujrat",
+	"lat":"22.310444",
+	"long":"70.802395"
+	},
+
+	{
+	"id":"323",
+	"name":"Ratanpar village,rajkot Gujrat",
+	"lat":"22.411031",
+	"long":"70.788579"
+	},
+
+	{
+	"id":"324",
+	"name":"Darshan engineering College,rajkot Gujrat",
+	"lat":"22.430715",
+	"long":"70.781532"
+	},
+
+	{
+	"id":"325",
+	"name":"Punitnagar ,bajrangwadi ,Rajkot,Gujrat",
+	"lat":"22.315188",
+	"long":"70.780957"
+	},
+
+	{
+	"id":"326",
+	"name":"Popatpara, Rajkot",
+	"lat":"22.321663",
+	"long":"70.798339"
+	},
+
+	{
+	"id":"327",
+	"name":"Ayapapaa Temple,Parsananagar,Rajkot",
+	"lat":"22.314049",
+	"long":"70.791119"
+	},
+
+	{
+	"id":"328",
+	"name":"Champak nagar, Panino Ghodo, Rajkot",
+	"lat":"22.303349",
+	"long":"70.818206"
+	},
+
+	{
+	"id":"329",
+	"name":"Aryanagar, Rajkot",
+	"lat":"22.305162",
+	"long":"70.823244"
+	},
+
+	{
+	"id":"330",
+	"name":"Satellite Chowk - Marutinagar aproach Road,Rajkot",
+	"lat":"22.306505",
+	"long":"70.825709"
+	},
+
+	{
+	"id":"331",
+	"name":"Gramudhyog Mandir Pedak",
+	"lat":"22.307411",
+	"long":"70.828493"
+	},
+
+	{
+	"id":"332",
+	"name":"Lakheshwar Society - R.T.O. Office",
+	"lat":"22.303959",
+	"long":"70.830416"
+	},
+
+	{
+	"id":"333",
+	"name":"Pradhyuman Park, Rajkot",
+	"lat":"22.299477",
+	"long":"70.83946"
+	},
+
+	{
+	"id":"334",
+	"name":"Govindnagar, Rajkot",
+	"lat":"22.266638",
+	"long":"70.81386"
+	},
+
+	{
+	"id":"335",
+	"name":"Manharpura - Bedinaka Fire Station,Rajkot",
+	"lat":"22.297412",
+	"long":"70.815528"
+	},
+
+	{
+	"id":"336",
+	"name":"Pardi Village, Rajkot",
+	"lat":"22.182378",
+	"long":"70.798742"
+	},
+
+	{
+	"id":"337",
+	"name":"Vavdi Gam school,Rajkot",
+	"lat":"22.2352466666667",
+	"long":"70.7905383333333"
+	},
+
+	{
+	"id":"338",
+	"name":"Madhapar Chowkdi(Morbi Road),Rajkot",
+	"lat":"22.3296783333333",
+	"long":"70.769785"
+	},
+
+	{
+	"id":"339",
+	"name":"Manharpur,Rajkot",
+	"lat":"22.33851",
+	"long":"70.77641"
+	},
+
+	{
+	"id":"340",
+	"name":"Krishna Bungalow,rajkot",
+	"lat":"22.3430516666667",
+	"long":"70.7810333333333"
+	},
+
+	{
+	"id":"341",
+	"name":"Astha sangrila,Rajkot",
+	"lat":"22.3435066666667",
+	"long":"70.7844633333333"
+	},
+
+	{
+	"id":"342",
+	"name":"CM Aavash,Rajkot",
+	"lat":"22.3402266666667",
+	"long":"70.79849"
+	},
+
+	{
+	"id":"343",
+	"name":"Husaini Chowk, Rajkot",
+	"lat":"22.220555",
+	"long":"70.804065"
+	},
+
+	{
+	"id":"344",
+	"name":"Vavdi Gam School, Rajkot",
+	"lat":"22.235245",
+	"long":"70.790517"
+	},
+
+	{
+	"id":"345",
+	"name":"Gautam Buddha Nagar, Rajkot",
+	"lat":"22.241728",
+	"long":"70.792418"
+	},
+
+	{
+	"id":"346",
+	"name":"Rajlaxmi  Society, Rajkot",
+	"lat":"22.325238",
+	"long":"70.81345"
+	},
+
+	{
+	"id":"347",
+	"name":"Radhika Park, Rajkot",
+	"lat":"22.325395",
+	"long":"70.815187"
+	},
+
+	{
+	"id":"348",
+	"name":"Om Residence, Morbi Road Crossing, Rajkot",
+	"lat":"22.327758",
+	"long":"70.816062"
+	},
+
+	{
+	"id":"349",
+	"name":"Jalaram Chowk,Rajkot",
+	"lat":"22.276688",
+	"long":"70.804397"
+	},
+
+	{
+	"id":"350",
+	"name":"Ashapura Mandir,Rajkot",
+	"lat":"22.293543",
+	"long":"70.808182"
+	},
+
+	{
+	"id":"351",
+	"name":"Divanpara Police Chowki,Rajkot",
+	"lat":"22.29477",
+	"long":"70.806875"
+	},
+
+	{
+	"id":"352",
+	"name":"Kevdawadi,Rajkot",
+	"lat":"22.28615",
+	"long":"70.810102"
+	},
+
+	{
+	"id":"353",
+	"name":"Balaji Hanuman,Rajkot",
+	"lat":"22.294625",
+	"long":"70.804685"
+	},
+
+	{
+	"id":"354",
+	"name":"G T Sheth Hospital / Collecter Office,Rajkot",
+	"lat":"22.305973",
+	"long":"70.797013"
+	},
+
+	{
+	"id":"355",
+	"name":"Gebanshahpir Dargah,Rajkot",
+	"lat":"22.309405",
+	"long":"70.80029"
+	},
+
+	{
+	"id":"356",
+	"name":"Jamtower Chowk,Rajkot",
+	"lat":"22.307582",
+	"long":"70.797945"
+	},
+
+	{
+	"id":"357",
+	"name":"Jagnath Mandir Chowk,Rajkot",
+	"lat":"22.294188",
+	"long":"70.790923"
+	},
+
+	{
+	"id":"358",
+	"name":"Bapa Sitaram Chowk,Rajkot",
+	"lat":"22.301297",
+	"long":"70.762493"
+	},
+
+	{
+	"id":"359",
+	"name":"Shree Ranima Rudima Chowk,Rajkot",
+	"lat":"22.312205",
+	"long":"70.762675"
+	},
+
+	{
+	"id":"360",
+	"name":"Shanti Nagar,Rajkot",
+	"lat":"22.314125",
+	"long":"70.756002"
+	},
+
+	{
+	"id":"361",
+	"name":"Vavdi Gam Ward Office,Rajkot",
+	"lat":"22.23834",
+	"long":"70.79201"
+	},
+
+	{
+	"id":"362",
+	"name":"Yadunandan Chowk,Rajkot",
+	"lat":"22.266352",
+	"long":"70.777195"
+	},
+
+	{
+	"id":"363",
+	"name":"Patel Nagar,Rajkot",
+	"lat":"22.266998",
+	"long":"70.779535"
+	},
+
+	{
+	"id":"364",
+	"name":"Vishv Nagar,Rajkot",
+	"lat":"22.27183",
+	"long":"70.782777"
+	},
+
+	{
+	"id":"365",
+	"name":"Svashrai Society,Rajkot",
+	"lat":"22.273753",
+	"long":"70.795347"
+	},
+
+	{
+	"id":"366",
+	"name":"Aditya Park,Rajkot",
+	"lat":"22.27183",
+	"long":"70.782777"
+	},
+
+	{
+	"id":"367",
+	"name":"Shree Dharmeshwar Marg Chowk,Rajkot",
+	"lat":"22.30455",
+	"long":"70.766218"
+	},
+
+	{
+	"id":"368",
+	"name":"Shantiniketan Park,Rajkot",
+	"lat":"22.303977",
+	"long":"70.76433"
+	},
+
+	{
+	"id":"369",
+	"name":"Rameshwar Chowk,Rajkot",
+	"lat":"22.303273",
+	"long":"70.762248"
+	},
+
+	{
+	"id":"370",
+	"name":"Vidhyut Nagar,Rajkot",
+	"lat":"22.3026",
+	"long":"70.760488"
+	},
+
+	{
+	"id":"371",
+	"name":"Kailashdham Park,Rajkot",
+	"lat":"22.303775",
+	"long":"70.75985"
+	},
+
+	{
+	"id":"372",
+	"name":"Amrut Park Main Road,Rajkot",
+	"lat":"22.304807",
+	"long":"70.75801"
+	},
+
+	{
+	"id":"373",
+	"name":"Gajanand Chowk,Rajkot",
+	"lat":"22.306373",
+	"long":"70.757648"
+	},
+
+	{
+	"id":"374",
+	"name":"J K Park,Rajkot",
+	"lat":"22.305198",
+	"long":"70.755003"
+	},
+
+	{
+	"id":"375",
+	"name":"Ramdevpir Chowk,Rajkot",
+	"lat":"22.311373",
+	"long":"70.76781"
+	},
+
+	{
+	"id":"376",
+	"name":"Shital Park BRTS Stop,Rajkot",
+	"lat":"22.316197",
+	"long":"70.767643"
+	},
+
+	{
+	"id":"377",
+	"name":"Rude Nagar 2",
+	"lat":"22.279222",
+	"long":"70.751722"
+	},
+
+	{
+	"id":"378",
+	"name":"Sarita Vihar Society,Rajkot",
+	"lat":"22.27788",
+	"long":"70.752742"
+	},
+
+	{
+	"id":"379",
+	"name":"Satysai Hospital,Rajkot",
+	"lat":"22.279207",
+	"long":"70.769897"
+	},
+
+	{
+	"id":"380",
+	"name":"GIDC Gate 1,Rajkot",
+	"lat":"22.250237",
+	"long":"70.685393"
+	},
+
+	{
+	"id":"381",
+	"name":"GIDC Gate 2,Rajkot",
+	"lat":"22.249023",
+	"long":"70.679802"
+	},
+
+	{
+	"id":"382",
+	"name":"Kankot village,Rajkot",
+	"lat":"22.267157",
+	"long":"70.734987"
+	},
+
+	{
+	"id":"383",
+	"name":"Metoda Gam,Rajkot",
+	"lat":"22.23746",
+	"long":"70.663498"
+	},
+
+	{
+	"id":"384",
+	"name":"Shivam Park ",
+	"lat":"22.326932",
+	"long":"70.794162"
+	},
+
+	{
+	"id":"385",
+	"name":"Hansaraj Nagar,Rajkot",
+	"lat":"22.317747",
+	"long":"70.798838"
+	},
+
+	{
+	"id":"386",
+	"name":"Balak Hanuman Chowk,Rajkot",
+	"lat":"22.303552",
+	"long":"70.819137"
+	},
+
+	{
+	"id":"387",
+	"name":"Bhagirath Society / Marketing Yard,Rajkot",
+	"lat":"22.301605",
+	"long":"70.831672"
+	},
+
+	{
+	"id":"388",
+	"name":"RMC East Zone,Rajkot",
+	"lat":"22.296262",
+	"long":"70.81771"
+	},
+
+	{
+	"id":"389",
+	"name":"Vima Hospital,Rajkot",
+	"lat":"22.29294",
+	"long":"70.830668"
+	},
+
+	{
+	"id":"390",
+	"name":"Golden Park,Rajkot",
+	"lat":"22.294162",
+	"long":"70.767187"
+	},
+
+	{
+	"id":"391",
+	"name":"Tulsi Baug,Rajkot",
+	"lat":"22.294722",
+	"long":"70.764687"
+	},
+
+	{
+	"id":"392",
+	"name":"Jalram Plot,Rajkot",
+	"lat":"22.291465",
+	"long":"70.773183"
+	},
+
+	{
+	"id":"393",
+	"name":"CM Aavas (Munjka),Rajkot",
+	"lat":"22.291018",
+	"long":"70.731895"
+	},
+
+	{
+	"id":"394",
+	"name":"Criste College,Rajkot",
+	"lat":"22.290928",
+	"long":"70.726662"
+	},
+
+	{
+	"id":"395",
+	"name":"Ngeshvar Jain Derasar,Rajkot",
+	"lat":"22.33718",
+	"long":"70.758123"
+	},
+
+	{
+	"id":"396",
+	"name":"Unicare Hospital,Rajkot",
+	"lat":"22.34097",
+	"long":"70.759067"
+	},
+
+	{
+	"id":"397",
+	"name":"Bhomeshvar,Rajkot",
+	"lat":"22.312908",
+	"long":"70.790493"
+	}
+	]
+}
+

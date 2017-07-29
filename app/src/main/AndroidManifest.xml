@@ -10,23 +10,22 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"
-        >
+        android:theme="@style/AppTheme">
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyCD9sh4--XfEY4oRLbgvXirWR9vrcDmqxg"/>
-        <activity android:name=".MainActivity" android:screenOrientation="portrait">
+            android:value="AIzaSyCD9sh4--XfEY4oRLbgvXirWR9vrcDmqxg" />
+
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Search_location">
-
-
-        </activity>
-
+        <activity android:name=".Search_location"></activity>
+        <activity android:name=".list_of_buses"></activity>
     </application>
 
 </manifest>
