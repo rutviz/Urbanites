@@ -58,6 +58,16 @@
                 android:paddingTop="15dp"
                 android:paddingLeft="5dp"
                 android:paddingRight="10dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_pin_drop_black_24dp"
+                android:id="@+id/pin_img"
+                android:paddingTop="15dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:layout_below="@+id/source"
+                android:layout_toEndOf="@+id/source" />
 
 
         </RelativeLayout>
@@ -66,7 +76,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/destBox"
-            android:layout_below="@+id/sourceBox">
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true">
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -152,7 +163,8 @@
             android:layout_height="match_parent"
             android:id="@+id/map"
             tools:context=".MapsActivity"
-            android:name="com.google.android.gms.maps.SupportMapFragment" />
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            />
 
     </RelativeLayout>
 
