@@ -2,7 +2,7 @@
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:card_view="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
         card_view:theme="?android:attr/preferenceHeaderPanelStyle">
 
@@ -19,7 +19,7 @@
                 android:id="@+id/details_card"
                 style="@style/Base.TextAppearance.AppCompat.Menu"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:padding="16dp">
 
                 <TextView
@@ -33,7 +33,38 @@
                     android:textSize="18sp"
                     android:alpha="0.87"
                     android:textColor="@color/black"/>
+                <TextView
+                    android:id="@+id/rupe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toStartOf="@+id/cycle_rate"
+                    android:editable="false"
+                    android:text="₹"
+                    android:layout_marginBottom="4dp"
+                    android:textColor="@color/teal_A700"
+                    android:textSize="18sp" />
 
+                <TextView
+                    android:id="@+id/cycle_rate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toStartOf="@+id/per_hour"
+                    android:text="18"
+                    android:paddingLeft="4dp"
+                    android:layout_marginBottom="4dp"
+
+                    android:textColor="@color/teal_A700"
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/per_hour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:editable="false"
+                    android:text="/hr"
+                    android:layout_marginBottom="4dp"
+                    android:textColor="@color/teal_A700"
+                    android:textSize="18sp" />
                 <TextView
                     android:id="@+id/stand_distance"
                     android:layout_width="wrap_content"

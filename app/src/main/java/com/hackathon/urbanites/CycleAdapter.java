@@ -25,10 +25,10 @@ public class CycleAdapter extends RecyclerView.Adapter<CycleAdapter.DataObjectHo
 
         public DataObjectHolder(View view) {
             super(view);
-            cycle_stop = (TextView) view.findViewById(R.id.bus_number);
-            cycle_rate = (TextView) view.findViewById(R.id.bus_fare);
-            stop_distance = (TextView) view.findViewById(R.id.bus_distance);
-            cycle_status = (TextView) view.findViewById(R.id.arriving_time);
+            cycle_stop = (TextView) view.findViewById(R.id.cycle_stop);
+            cycle_rate = (TextView) view.findViewById(R.id.cycle_rate);
+            stop_distance = (TextView) view.findViewById(R.id.stand_distance);
+            cycle_status = (TextView) view.findViewById(R.id.cycle_avability_status);
             Log.i(LOG_TAG, "Adding Listener");
             itemView.setOnClickListener(this);
         }
@@ -51,7 +51,7 @@ public class CycleAdapter extends RecyclerView.Adapter<CycleAdapter.DataObjectHo
     public DataObjectHolder onCreateViewHolder(ViewGroup parent,
                                                int viewType) {
         View view = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.bus_detailed_card, parent, false);
+                .inflate(R.layout.cycle_card, parent, false);
 
         DataObjectHolder dataObjectHolder = new DataObjectHolder(view);
         return dataObjectHolder;

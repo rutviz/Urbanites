@@ -185,22 +185,21 @@
         android:visibility="gone"
         android:layout_alignParentBottom="true"
         android:elevation="4dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/swipe">
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:id="@+id/swipe">
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:adjustViewBounds="false"
-            android:cropToPadding="false"
-            android:elevation="50dp"
-            android:src="@drawable/ic_keyboard_arrow_up_black_24dp"
-            android:visibility="visible" />
-    </RelativeLayout>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                android:elevation="50dp"
+                android:src="@drawable/ic_keyboard_arrow_up_black_24dp"
+                android:visibility="visible" />
+        </RelativeLayout>
 
     <RelativeLayout
         android:id="@+id/details_card"

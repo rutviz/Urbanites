@@ -57,9 +57,13 @@ import Modules.Route;
 
 public class MainActivity extends AppCompatActivity implements OnMapReadyCallback, GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener, DirectionFinderListener {
 
-    private RecyclerView mRecyclerView;
-    private RecyclerView.Adapter mAdapter;
-    private RecyclerView.LayoutManager mLayoutManager;
+
+    private RecyclerView bRecyclerView;
+    private RecyclerView.Adapter bAdapter;
+    private RecyclerView.LayoutManager bLayoutManager;
+    private RecyclerView cRecyclerView;
+    private RecyclerView.Adapter cAdapter;
+    private RecyclerView.LayoutManager cLayoutManager;
     int PLACE_AUTOCOMPLETE_REQUEST_CODE = 1;
     int PLACE_AUTOCOMPLETE_REQUEST_CODE_dest = 2;
     private final String TAG = "locationLog";
@@ -73,7 +77,6 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     EditText Source, Destination;
     TextView RMTS, BRTS, Cycle;
     LatLng NearSource, NearDest;
-    android.support.v7.widget.CardView cardView;
     float total_distance;
     TextView bus_stop, bus_distance;
     int flag_walk = 1, flag_bus = 0;
@@ -86,16 +89,16 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //card
-
-        mRecyclerView = (RecyclerView) findViewById(R.id.my_recycler_view);
-        mRecyclerView.setHasFixedSize(true);
-        mLayoutManager = new LinearLayoutManager(this);
-        mRecyclerView.setLayoutManager(mLayoutManager);
-        mAdapter = new BusSmallAdapter(getDataSet());
-        mRecyclerView.setAdapter(mAdapter);
-
-        cardView = (android.support.v7.widget.CardView) findViewById(R.id.card_view_ini);
+        bRecyclerView = (RecyclerView) findViewById(R.id.my_recycler_view);
+        bRecyclerView.setHasFixedSize(true);
+        bLayoutManager = new LinearLayoutManager(getApplicationContext());
+        bRecyclerView.setLayoutManager(bLayoutManager);
+        bAdapter = new BusSmallAdapter(getDataSetBus());
+        cRecyclerView = (RecyclerView) findViewById(R.id.my_recycler_view);
+        cRecyclerView.setHasFixedSize(true);
+        cLayoutManager = new LinearLayoutManager(getApplicationContext());
+        cRecyclerView.setLayoutManager(cLayoutManager);
+        cAdapter = new CycleAdapter(getDataSetCycle());
         Source = (EditText) findViewById(R.id.source);
         Destination = (EditText) findViewById(R.id.dest);
         RMTS = (TextView) findViewById(R.id.RMTS);
@@ -121,6 +124,8 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 RMTS.setBackground(ContextCompat.getDrawable(getBaseContext(), R.drawable.round));
                 BRTS.setBackground(ContextCompat.getDrawable(getBaseContext(), R.drawable.round_active));
                 Cycle.setBackground(ContextCompat.getDrawable(getBaseContext(), R.drawable.round));
+                //card
+                    bRecyclerView.setAdapter(bAdapter);
             }
         });
         RMTS.setOnClickListener(new View.OnClickListener() {
@@ -135,6 +140,8 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 Cycle.setBackground(ContextCompat.getDrawable(getBaseContext(), R.drawable.round));
                 routefinder(sPlace,1,1);
                 routefinder(dPlace,2,1);
+                //card
+               bRecyclerView.setAdapter(bAdapter);
             }
         });
         Cycle.setOnClickListener(new View.OnClickListener() {
@@ -149,6 +156,8 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 Cycle.setBackground(ContextCompat.getDrawable(getBaseContext(), R.drawable.round_active));
                 routefinder(sPlace,1,1);
                 routefinder(dPlace,2,1);
+               //card
+                cRecyclerView.setAdapter(cAdapter);
             }
         });
 
@@ -277,7 +286,6 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             if (flag_bus == 2) {
                 Log.d("original", String.valueOf(flag_bus));
                 bus_distance.setText(route.distance.text);
-                cardView.setVisibility(View.VISIBLE);
             }
             if (flag_bus == 3) {
                 destinationMarkers.add(mMap.addMarker(new MarkerOptions()
@@ -649,7 +657,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     @Override
     protected void onResume() {
         super.onResume();
-        ((BusSmallAdapter) mAdapter).setOnItemClickListener(new BusSmallAdapter
+        ((BusSmallAdapter) bAdapter).setOnItemClickListener(new BusSmallAdapter
                 .MyClickListener() {
             @Override
             public void onItemClick(int position, View v) {
@@ -657,11 +665,23 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         });
     }
 
-    private ArrayList<SmallBus> getDataSet() {
+    private ArrayList<SmallBus> getDataSetBus() {
         ArrayList results = new ArrayList<SmallBus>();
         for (int index = 0; index < 20; index++) {
             SmallBus obj = new SmallBus("2","4","2.1","2");
             results.add(index, obj);
         }
         return results;
-    }}
+    }
+    private ArrayList<Cycle> getDataSetCycle() {
+        ArrayList results = new ArrayList<Cycle>();
+        for (int index = 0; index < 20; index++) {
+            Cycle obj = new Cycle("station1","20","0.3","AVAILABLE");
+            results.add(index, obj);
+        }
+        return results;
+    }
+    public static Context getAppContext() {
+        return MainActivity.getAppContext();
+    }
+}
