@@ -4,68 +4,148 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:background="#FFF"
     tools:context="com.hackathon.urbanites.MainActivity">
 
     <RelativeLayout
         android:id="@+id/topbar"
         android:layout_width="match_parent"
-        android:layout_height="120dp"
-        android:background="@color/colorPrimary"
-        android:elevation="8dp">
+        android:layout_height="165dp"
+        android:background="@color/blue_grey_800"
+        android:elevation="20dp">
 
-        <EditText
-            android:id="@+id/source"
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:id="@+id/sourceBox">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_location_on_white_24dp"
+                android:id="@+id/loc_img"
+                android:paddingTop="15dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"/>
+
+            <EditText
+                android:id="@+id/source"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:background="@drawable/whitebox"
+                android:layout_margin="10dp"
+                android:layout_toRightOf="@+id/loc_img"
+                android:layout_alignParentTop="true"
+                android:singleLine="true"
+                android:hint="Enter source location"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:scrollbars="horizontal"
+                android:textSize="15dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:editable="false"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/source"
+                android:src="@drawable/ic_my_location_white_24dp"
+                android:id="@+id/loc_img_source"
+                android:paddingTop="15dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="10dp"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/destBox"
+            android:layout_below="@+id/sourceBox">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_location_on_white_24dp"
+                android:id="@+id/loc_img_dest"
+                android:paddingTop="15dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"/>
+
+            <EditText
+                android:id="@+id/dest"
+                android:layout_width="250dp"
+                android:layout_height="30dp"
+                android:background="@drawable/whitebox"
+                android:layout_margin="10dp"
+                android:singleLine="true"
+                android:hint="Enter destination location"
+                android:layout_toRightOf="@+id/loc_img_dest"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="15dp"
+                android:editable="false"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/destBox"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:id="@+id/BRTS"
+                android:background="@drawable/round_active"
+                android:layout_width="70dp"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="@color/blue_grey_800"
+                android:text="BRTS"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/RMTS"
+                android:background="@drawable/round"
+                android:layout_width="70dp"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="@color/blue_grey_800"
+                android:text="RMTS"
+                android:layout_toRightOf="@+id/BRTS"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"/>
+
+            <TextView
+                android:id="@+id/CYCLE"
+                android:layout_toRightOf="@+id/RMTS"
+                android:background="@drawable/round"
+                android:layout_width="70dp"
+                android:padding="5dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="@color/blue_grey_800"
+                android:text="Cycle"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="48dp"
-            android:background="@drawable/whitebox"
-            android:layout_margin="8dp"
-            android:drawableLeft="@drawable/ic_person_pin_circle_black_24dp"
-            android:drawablePadding="24dp"
-            android:drawableTint="@color/grey_500"
-            android:maxLines="1"
-            android:hint="Enter source location"
-            android:textSize="16sp"
-            android:paddingLeft="16dp"
-            android:layout_marginRight="36dp"
-            android:paddingRight="56dp"
-            android:scrollbars="none"
-            android:orientation="vertical"
-            android:inputType="text"
-        />
+            android:layout_height="match_parent"
+            android:layout_below="@+id/busbar">
 
-
-        <ImageView
-            android:id="@+id/currentLoc"
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:layout_marginTop="12dp"
-            android:layout_marginRight="24dp"
-            android:src="@drawable/ic_my_location_black_24dp"
-            android:layout_alignTop="@+id/source"
-            android:layout_alignParentEnd="true"
-            android:tint="@color/grey_900"
-        />
-
-        <EditText
-            android:id="@+id/dest"
-            android:layout_width="match_parent"
-            android:layout_height="48dp"
-            android:background="@drawable/whitebox"
-            android:drawableLeft="@drawable/ic_location_on_black_24dp"
-            android:drawablePadding="24dp"
-            android:drawableTint="@color/grey_500"
-            android:maxLines="1"
-            android:hint="Enter destination location"
-            android:textSize="16sp"
-            android:paddingLeft="16dp"
-            android:layout_marginRight="8dp"
-            android:paddingRight="32dp"
-            android:scrollbars="none"
-            android:orientation="vertical"
-            android:inputType="text"
-            android:layout_marginLeft="8dp"
-            android:layout_below="@+id/source"
-            android:layout_alignParentStart="true" />
+        </RelativeLayout>
 
     </RelativeLayout>
 
@@ -80,6 +160,223 @@
             android:layout_height="match_parent"
             android:id="@+id/map"
             tools:context=".MapsActivity"
-            android:name="com.google.android.gms.maps.SupportMapFragment" />
+            android:name="com.google.android.gms.maps.SupportMapFragment" >
+
+
+        </fragment>
+
     </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/my_recycler_view"
+        android:layout_width="wrap_content"
+        android:layout_height="155dp"
+        android:scrollbars="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        />
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view_ini"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="0dp"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:elevation="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/swipe">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:adjustViewBounds="false"
+            android:cropToPadding="false"
+            android:elevation="50dp"
+            android:src="@drawable/ic_keyboard_arrow_up_black_24dp"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/details_card"
+        style="@style/Base.TextAppearance.AppCompat.Menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/bus_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="5dp"
+            android:editable="false"
+            android:text="Bus No."
+            android:textColor="@color/black"
+            android:alpha="0.87"
+            android:textAppearance="@android:style/TextAppearance.Material.SearchResult.Subtitle"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/bus_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/bus_name"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:text="1"
+            android:textColor="@color/black"
+            android:alpha="0.87"
+            android:textAppearance="@android:style/TextAppearance.Material.SearchResult.Subtitle"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/rupee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toStartOf="@+id/bus_fare"
+            android:editable="false"
+            android:text="₹"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/teal_A700"
+            android:textColorHighlight="@color/amber_50"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/bus_fare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="5dp"
+            android:paddingLeft="4dp"
+            android:text="18"
+            android:textColor="@color/teal_A700"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/bus_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Silverlight Towers Bus Stop"
+            android:layout_marginBottom="4dp"
+            android:textSize="16sp"
+            android:alpha="0.54"
+            android:textColor="@color/black"
+            android:layout_below="@+id/bus_name"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/bus_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/km"
+            android:layout_alignBottom="@+id/km"
+            android:layout_toStartOf="@+id/km"
+            android:paddingRight="4dp"
+            android:paddingLeft="4dp"
+            android:text="2.1"
+            android:alpha="0.87"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/km"
+            android:layout_marginRight="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/rupee"
+            android:editable="false"
+            android:text=""
+            android:alpha="0.87"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/arriving"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/bus_stop"
+            android:layout_marginBottom="4dp"
+            android:editable="false"
+            android:text="Arriving in"
+            android:alpha="0.54"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/arriving_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:text="2"
+            android:alpha="0.54"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_alignBaseline="@+id/arriving"
+            android:layout_alignBottom="@+id/arriving"
+            android:layout_toEndOf="@+id/arriving" />
+
+        <TextView
+            android:id="@+id/arr_min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/arriving_time"
+            android:layout_alignBottom="@+id/arriving_time"
+            android:layout_toEndOf="@+id/arriving_time"
+            android:editable="false"
+            android:text="min"
+            android:alpha="0.54"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/trip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/arriving"
+            android:layout_marginBottom="4dp"
+            android:editable="false"
+            android:text="Trips every"
+            android:alpha="0.54"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/trip_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/arriving"
+            android:layout_toEndOf="@id/trip"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:text="45"
+            android:alpha="0.54"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/trip_min"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/arriving"
+            android:layout_toEndOf="@+id/trip_time"
+            android:editable="false"
+            android:text="min"
+            android:alpha="0.54"
+            android:textColor="@color/black"
+            android:textSize="16sp" />
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
 </RelativeLayout>

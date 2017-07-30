@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         mAdapter = new BusSmallAdapter(getDataSet());
         mRecyclerView.setAdapter(mAdapter);
 
-
+        cardView = (android.support.v7.widget.CardView) findViewById(R.id.card_view_ini);
         Source = (EditText) findViewById(R.id.source);
         Destination = (EditText) findViewById(R.id.dest);
         RMTS = (TextView) findViewById(R.id.RMTS);
