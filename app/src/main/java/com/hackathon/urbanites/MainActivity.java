@@ -95,6 +95,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     public static int TAB = 1;
     Place sPlace,dPlace;
     public Thread bus_track;
+    FloatingActionButton fab1,fab2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -109,10 +110,24 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         bus_distance = (TextView) findViewById(R.id.bus_distance);
         bus_stop = (TextView) findViewById(R.id.bus_stop);
         my_location = (ImageView) findViewById(R.id.loc_img_source);
-
+        fab1 = (FloatingActionButton) findViewById(R.id.fab22);
+        fab2 = (FloatingActionButton) findViewById(R.id.fab32);
         cardView = (android.support.v7.widget.CardView) findViewById(R.id.card_view_ini);
 
 
+        fab1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mMap.clear();
+            }
+        });
+
+        fab2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                RMTS.callOnClick();
+            }
+        });
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
