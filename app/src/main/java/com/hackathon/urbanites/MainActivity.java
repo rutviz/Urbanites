@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     android.support.v7.widget.CardView cardView;
     float total_distance;
     TextView bus_stop, bus_distance;
-    int flag_walk = 1, flag_bus = 0,Zoom_level=0;
+    int flag_walk = 1, flag_bus = 1,Zoom_level=0;
     ImageView my_location;
     private ArrayList<MyLocation> CYCLE_stand;
     public static int TAB = 1;
@@ -114,6 +114,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
 
+        convert();
         BRTS.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -166,7 +167,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                     Log.d("parsing", "updating tab= "+TAB);
                     new Bus_Traking(mMap,TAB).execute();
                     try {
-                        Thread.sleep(1500);
+                        Thread.sleep(500);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
@@ -212,8 +213,9 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             }
         });
 
-    }
 
+
+    }
 
     @Override
     public void onMapReady(GoogleMap googleMap) {
@@ -322,21 +324,50 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(route.startLocation, 12));
             Log.d("test", route.distance.text);
 
-
             if (flag_bus == 1) {
                 originMarkers.add(mMap.addMarker(new MarkerOptions()
                         .title(route.startAddress)
                         .position(route.startLocation)));
+                PolylineOptions polylineOptions = new PolylineOptions().
+                        geodesic(true).
+                        color(getResources().getColor(R.color.green_600)).
+                        width(15);
+
+                for (int i = 0; i < route.points.size(); i++)
+                    polylineOptions.add(route.points.get(i));
+                Polyline mpolyline = mMap.addPolyline(polylineOptions);
+
+                polylinePaths.add(mpolyline);
             }
-            if (flag_bus == 2) {
+            else if (flag_bus == 2) {
                 Log.d("original", String.valueOf(flag_bus));
                 bus_distance.setText(route.distance.text);
                 cardView.setVisibility(View.VISIBLE);
+                PolylineOptions polylineOptions = new PolylineOptions().
+                        geodesic(true).
+                        color(getResources().getColor(R.color.blue_600)).
+                        width(15);
+
+                for (int i = 0; i < route.points.size(); i++)
+                    polylineOptions.add(route.points.get(i));
+                Polyline mpolyline = mMap.addPolyline(polylineOptions);
+
+                polylinePaths.add(mpolyline);
             }
-            if (flag_bus == 3) {
+            else if (flag_bus == 3) {
                 destinationMarkers.add(mMap.addMarker(new MarkerOptions()
                         .title(route.endAddress)
                         .position(route.endLocation)));
+                PolylineOptions  polylineOptions = new PolylineOptions().
+                        geodesic(true).
+                        color(getResources().getColor(R.color.green_600)).
+                        width(15);
+
+                for (int i = 0; i < route.points.size(); i++)
+                    polylineOptions.add(route.points.get(i));
+                Polyline mpolyline = mMap.addPolyline(polylineOptions);
+
+                polylinePaths.add(mpolyline);
 
             }
             flag_bus++;
@@ -349,16 +380,8 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
 
             //.icon(BitmapDescriptorFactory.fromResource(R.drawable.end_green))
-            PolylineOptions polylineOptions = new PolylineOptions().
-                    geodesic(true).
-                    color(getResources().getColor(R.color.blue_600)).
-                    width(15);
 
-            for (int i = 0; i < route.points.size(); i++)
-                polylineOptions.add(route.points.get(i));
-            Polyline mpolyline = mMap.addPolyline(polylineOptions);
-
-            polylinePaths.add(mpolyline);
+;
         }
     }
 
@@ -385,6 +408,33 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     @Override
     public void onConnectionFailed(@NonNull ConnectionResult connectionResult) {
 
+    }
+
+    void convert()
+    {
+        Resources res = getResources();
+
+        InputStream is = res.openRawResource(R.raw.station_time);
+        Scanner scanner = new Scanner(is);
+        StringBuilder builder = new StringBuilder();
+        while (scanner.hasNextLine()) {
+            builder.append(scanner.nextLine());
+        }
+
+        ArrayList<MyLocation> locListRMTS = new ArrayList<>();
+        StringBuilder builder1 = new StringBuilder(builder);
+        try {
+
+            JSONArray RMTS = new JSONArray(builder1);
+            for (int i = 0; i < RMTS.length(); i++) {
+                Log.d("parsing123",RMTS.getString(i));
+            }
+        } catch (JSONException e) {
+            Log.d("Station", "error");
+            builder.append("name: ");
+            e.printStackTrace();
+            Log.d("test", e.getMessage());
+        }
     }
 
     private ArrayList<MyLocation> loadJSONFromAsset() {
@@ -557,8 +607,6 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 polyline.remove();
             }
             new DirectionFinder(this, origin, NearSource.latitude + "," + NearSource.longitude).execute();
-            flag_walk = 0;
-            flag_bus = 1;
             Log.d("original", "flag bus");
             new DirectionFinder(this, NearSource.latitude + "," + NearSource.longitude, NearDest.latitude + "," + NearDest.longitude).execute();
             Log.d("original", "flag walk");
