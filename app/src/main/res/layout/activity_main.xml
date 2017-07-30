@@ -388,25 +388,25 @@
         fab:menu_colorPressed="@color/blue_grey_800"
         fab:menu_colorRipple="@color/blue_grey_800">
 
-        <com.github.clans.fab.FloatingActionButton
+       <!-- <com.github.clans.fab.FloatingActionButton
             android:id="@+id/fab12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_directions_bus_black_24dp"
+            style="@style/MenuButtonsStyle" />-->
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/fab22"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_directions_bus_black_24dp"
             style="@style/MenuButtonsStyle" />
 
         <com.github.clans.fab.FloatingActionButton
-            android:id="@+id/fab22"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_directions_bike_black_24dp"
-            style="@style/MenuButtonsStyle" />
-
-        <com.github.clans.fab.FloatingActionButton
             android:id="@+id/fab32"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_directions_bike_black_24dp"
+            android:src="@drawable/marker_rmt"
             style="@style/MenuButtonsStyle" />
 
     </com.github.clans.fab.FloatingActionMenu>
