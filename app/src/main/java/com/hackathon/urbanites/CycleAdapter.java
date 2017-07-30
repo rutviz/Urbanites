@@ -9,26 +9,26 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class BusAdapter extends RecyclerView
-        .Adapter<BusAdapter
-        .DataObjectHolder> {
-    private static String LOG_TAG = "BusAdapter";
-    private ArrayList<Bus> bus_list;
+/**
+ * Created by bhavi on 30-07-2017.
+ */
+
+public class CycleAdapter extends RecyclerView.Adapter<CycleAdapter.DataObjectHolder> {
+    private static String LOG_TAG = "CycleAdapter";
+    private ArrayList<Cycle> cycle_list;
     private static MyClickListener myClickListener;
 
     public static class DataObjectHolder extends RecyclerView.ViewHolder
             implements View
             .OnClickListener {
-        public TextView busNum, Fare, busStop, Distance, arrTime, tripTime;
+        public TextView cycle_stop, cycle_rate, stop_distance, cycle_status;
 
         public DataObjectHolder(View view) {
             super(view);
-            busNum = (TextView) view.findViewById(R.id.bus_number);
-            busStop = (TextView) view.findViewById(R.id.bus_stop);
-            Fare = (TextView) view.findViewById(R.id.bus_fare);
-            Distance = (TextView) view.findViewById(R.id.bus_distance);
-            arrTime = (TextView) view.findViewById(R.id.arriving_time);
-            tripTime = (TextView) view.findViewById(R.id.trip_time);
+            cycle_stop = (TextView) view.findViewById(R.id.bus_number);
+            cycle_rate = (TextView) view.findViewById(R.id.bus_fare);
+            stop_distance = (TextView) view.findViewById(R.id.bus_distance);
+            cycle_status = (TextView) view.findViewById(R.id.arriving_time);
             Log.i(LOG_TAG, "Adding Listener");
             itemView.setOnClickListener(this);
         }
@@ -43,8 +43,8 @@ public class BusAdapter extends RecyclerView
         this.myClickListener = myClickListener;
     }
 
-    public BusAdapter(ArrayList<Bus> myDataset) {
-        bus_list = myDataset;
+    public CycleAdapter(ArrayList<Cycle> myDataset) {
+        cycle_list = myDataset;
     }
 
     @Override
@@ -59,27 +59,25 @@ public class BusAdapter extends RecyclerView
 
     @Override
     public void onBindViewHolder(DataObjectHolder holder, int position) {
-        holder.busNum.setText(bus_list.get(position).getBus_num());
-        holder.Fare.setText(bus_list.get(position).getFare());
-        holder.busStop.setText(bus_list.get(position).getBus_stop());
-        holder.Distance.setText(bus_list.get(position).getDistance());
-        holder.arrTime.setText(bus_list.get(position).getArr_time());
-        holder.tripTime.setText(bus_list.get(position).getTrip_time());
+        holder.cycle_stop.setText(cycle_list.get(position).getCycle_stop());
+        holder.cycle_rate.setText(cycle_list.get(position).getCycle_rate());
+        holder.stop_distance.setText(cycle_list.get(position).getStand_distance());
+        holder.cycle_status.setText(cycle_list.get(position).getCycle_status());
     }
 
-    public void addItem(Bus dataObj, int index) {
-        bus_list.add(index, dataObj);
+    public void addItem(Cycle dataObj, int index) {
+        cycle_list.add(index, dataObj);
         notifyItemInserted(index);
     }
 
     public void deleteItem(int index) {
-        bus_list.remove(index);
+        cycle_list.remove(index);
         notifyItemRemoved(index);
     }
 
     @Override
     public int getItemCount() {
-        return bus_list.size();
+        return cycle_list.size();
     }
 
     public interface MyClickListener {
