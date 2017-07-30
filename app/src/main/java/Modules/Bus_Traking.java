@@ -8,6 +8,7 @@ import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.hackathon.urbanites.MainActivity;
 import com.hackathon.urbanites.R;
 
 import org.json.JSONArray;
@@ -29,11 +30,12 @@ import java.util.ArrayList;
 public class Bus_Traking extends AsyncTask<String, Void, String>{
 
     GoogleMap mMap;
-    public ArrayList<Marker> almarker = new ArrayList<Marker>();
-    public Bus_Traking(GoogleMap mMa)
+    int TAB=1;
+    public static ArrayList<Marker> almarker = new ArrayList<Marker>();
+    public Bus_Traking(GoogleMap mMa,int i)
     {
         mMap=mMa;
-        almarker = new ArrayList<Marker>();
+        TAB=i;
     }
         @Override
         protected String doInBackground(String... params) {
@@ -61,6 +63,13 @@ public class Bus_Traking extends AsyncTask<String, Void, String>{
         @Override
         protected void onPostExecute(String res) {
             try {
+                if (almarker != null) {
+                    Log.d("parsing", String.valueOf(almarker.size()));
+                    for (Marker marker : almarker) {
+                        marker.remove();
+                    }
+                    almarker.clear();
+                }
                 parseJSon(res);
             } catch (JSONException e) {
                 e.printStackTrace();
@@ -72,18 +81,19 @@ public class Bus_Traking extends AsyncTask<String, Void, String>{
             StringBuilder builder = new StringBuilder();
             try {
                 JSONArray RMTS = new JSONArray(res);
-                Log.d("parsing", String.valueOf(RMTS.length()));
+                Log.d("parsing123", String.valueOf(RMTS.length()));
                 for (int i = 0; i < RMTS.length(); i++) {
                     JSONObject val = RMTS.getJSONObject(i);
                     Log.d("parsing",val.getString("VehicleStatus"));
-                    if(val.getString("VehicleStatus").equals("IgnitionOn"))
+                    if(val.getString("VehicleStatus").equals("Moving") && MainActivity.TAB==2)
                     {
-                       Marker m= mMap.addMarker(new MarkerOptions()
-                            .icon(BitmapDescriptorFactory.fromResource(R.drawable.marker_rmt))
-                            .title(val.getString("VehName"))
-                                .icon(BitmapDescriptorFactory.fromResource(R.drawable.bus))
-                            .position(new LatLng(Double.parseDouble(val.getString("Latitude")), Double.parseDouble(val.getString("Longitude")))));
-                        almarker.add(m);
+                        if(!val.getString("VehName").contains("BRTS")) {
+                            Marker m = mMap.addMarker(new MarkerOptions()
+                                    .title(val.getString("VehName"))
+                                    .icon(BitmapDescriptorFactory.fromResource(R.drawable.bus))
+                                    .position(new LatLng(Double.parseDouble(val.getString("Latitude")), Double.parseDouble(val.getString("Longitude")))));
+                            almarker.add(m);
+                        }
                     }
 
                     /*mMap.addMarker(new MarkerOptions()

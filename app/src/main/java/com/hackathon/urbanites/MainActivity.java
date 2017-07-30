@@ -37,6 +37,7 @@ import com.google.android.gms.location.places.ui.PlaceAutocomplete;
 import com.google.android.gms.maps.CameraUpdate;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.GoogleMap.OnCameraMoveListener;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
@@ -86,11 +87,12 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
     android.support.v7.widget.CardView cardView;
     float total_distance;
     TextView bus_stop, bus_distance;
-    int flag_walk = 1, flag_bus = 0;
+    int flag_walk = 1, flag_bus = 0,Zoom_level=0;
     ImageView my_location;
     private ArrayList<MyLocation> CYCLE_stand;
-    int TAB = 1;
+    public static int TAB = 1;
     Place sPlace,dPlace;
+    public Thread bus_track;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -132,7 +134,8 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 TAB = 2;
                 mMap.clear();
                 RMTS_bus = loadJSONFromAssetRMTS();
-                mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(getMycurrentloc(), 12));
+                bus_track.start();
+                mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(getMycurrentloc(), 13));
                 RMTS.setBackground(ContextCompat.getDrawable(getBaseContext(), R.drawable.round_active));
                 BRTS.setBackground(ContextCompat.getDrawable(getBaseContext(), R.drawable.round));
                 Cycle.setBackground(ContextCompat.getDrawable(getBaseContext(), R.drawable.round));
@@ -146,12 +149,28 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                 TAB = 3;
                 mMap.clear();
                 CYCLE_stand = loadJSONFromAssetCycle();
-                mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(getMycurrentloc(), 12));
+                mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(getMycurrentloc(), 13));
                 RMTS.setBackground(ContextCompat.getDrawable(getBaseContext(), R.drawable.round));
                 BRTS.setBackground(ContextCompat.getDrawable(getBaseContext(), R.drawable.round));
                 Cycle.setBackground(ContextCompat.getDrawable(getBaseContext(), R.drawable.round_active));
                 routefinder(sPlace,1,1);
                 routefinder(dPlace,2,1);
+            }
+        });
+
+        bus_track = new Thread(new Runnable(){
+
+            @Override
+            public void run() {
+                while(TAB==2) {
+                    Log.d("parsing", "updating tab= "+TAB);
+                    new Bus_Traking(mMap,TAB).execute();
+                    try {
+                        Thread.sleep(1500);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                }
             }
         });
 
@@ -195,6 +214,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
     }
 
+
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
@@ -209,34 +229,39 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         }
 
         BRTS_bus = loadJSONFromAsset();
-
-
-        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(getMycurrentloc(), 12));
-
-        /*new Thread(new Runnable(){
-
+/*
+        mMap.setOnCameraMoveListener(new OnCameraMoveListener() {
             @Override
-            public void run() {
-                while(true) {
-                    Log.d("parsing", "updating");
-                    if(i[0] !=0) {
-                        if (bt[0].almarker != null) {
-                            for (Marker marker : bt[0].almarker) {
-                                marker.remove();
-                            }
+            public void onCameraMove() {
+                Log.d("parsing123", "" + mMap.getCameraPosition().zoom);
+                Zoom_level = (int) mMap.getCameraPosition().zoom;
+                if (Zoom_level >= 13) {
+                    if (TAB == 1) {
+                        for (MyLocation i : BRTS_bus) {
+                            mMap.addMarker(new MarkerOptions().position(new LatLng(i.getLatitude(), i.getLongitude())));
+                        }
+                    } else if (TAB == 2) {
+                        for (MyLocation i : RMTS_bus) {
+                            mMap.addMarker(new MarkerOptions().position(new LatLng(i.getLatitude(), i.getLongitude())).icon(BitmapDescriptorFactory.fromResource(R.drawable.marker_rmt)));
+                        }
+                    } else {
+                        for (MyLocation i : CYCLE_stand) {
+                            mMap.addMarker(new MarkerOptions().position(new LatLng(i.getLatitude(), i.getLongitude())));
                         }
                     }
-                     bt[0] = (Bus_Traking) new Bus_Traking(mMap).execute();
-                    try {
-                        Thread.sleep(2500);
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
+
+                }
+                else if(TAB==2)
+                {
+                    for (MyLocation i : RMTS_bus) {
+                        mMap.addMarker(new MarkerOptions().position(new LatLng(i.getLatitude(), i.getLongitude())).icon(BitmapDescriptorFactory.fromResource(R.drawable.marker_rmt)));
                     }
-                    i[0]++;
+                    mMap.clear();
                 }
             }
-        }).start();*/
-        new Bus_Traking(mMap).execute();
+        });
+*/
+        mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(getMycurrentloc(), 13));
     }
 
     @Override
@@ -558,7 +583,8 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             if (l != null) {
                 double latitude = l.getLatitude();
                 double longitude = l.getLongitude();
-                mMap.addMarker(new MarkerOptions().position(latLng = new LatLng(latitude, longitude)));
+                latLng = new LatLng(latitude, longitude);
+                mMap.addMarker(new MarkerOptions().position(latLng));
                 break;
             }
         }
