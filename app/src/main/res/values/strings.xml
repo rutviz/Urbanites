@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Urbanites</string>
+    <string name="app_name">Tripster</string>
+
+    <string name="title_activity_splash_screen">Tripster</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>
