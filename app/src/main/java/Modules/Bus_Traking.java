@@ -85,7 +85,7 @@ public class Bus_Traking extends AsyncTask<String, Void, String>{
                 for (int i = 0; i < RMTS.length(); i++) {
                     JSONObject val = RMTS.getJSONObject(i);
                     Log.d("parsing",val.getString("VehicleStatus"));
-                    if(val.getString("VehicleStatus").equals("Moving") && MainActivity.TAB==2)
+                    if((val.getString("VehicleStatus").equals("Moving") || val.getString("VehicleStatus").equals("IgnitionOn"))&& MainActivity.TAB==2)
                     {
                         if(!val.getString("VehName").contains("BRTS")) {
                             Marker m = mMap.addMarker(new MarkerOptions()
