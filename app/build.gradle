@@ -37,4 +37,5 @@ dependencies {
     compile 'com.android.support:support-v4:26.+'
     compile 'com.github.clans:fab:1.6.4'
     testCompile 'junit:junit:4.12'
+
 }

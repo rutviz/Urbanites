@@ -9,6 +9,8 @@
     android:background="#FFF"
     tools:context="com.hackathon.urbanites.MainActivity">
 
+
+
     <RelativeLayout
         android:id="@+id/topbar"
         android:layout_width="match_parent"
