@@ -1,0 +1,127 @@
+{
+	"BRTS":[
+		{
+			"id":"1",
+			"name":"Gondal Chowk",
+			"lat":"22.243732",
+			"long":"70.799116"
+		},
+
+		{
+			"id":"2",
+			"name":"Punit Nagar Society",
+			"lat":"22.248671",
+			"long":"70.7896966"
+		},
+
+		{
+			"id":"3",
+			"name":"Goverdhan Chowk",
+			"lat":"22.2511451",
+			"long":"70.7911189"
+		},
+
+		{
+			"id":"4",
+			"name":"Ambedkar Nagar",
+			"lat":"22.2525182",
+			"long":"70.7919265"
+		},
+
+		{
+			"id":"5",
+			"name":"Shree Umiya Chowk",
+			"lat":"22.2600603",
+			"long":"70.7911135"
+		},
+
+		{
+			"id":"6",
+			"name":"Mavadi Chowk",
+			"lat":"22.2648399",
+			"long":"70.7845993"
+		},
+
+		{
+			"id":"7",
+			"name":"Om Nagar",
+			"lat":"22.2636499",
+			"long":"70.771857"
+		},
+
+		{
+			"id":"8",
+			"name":"Mahapuja Dham Chowk",
+			"lat":"22.271666",
+			"long":"70.779928"
+		},
+
+		{
+			"id":"9",
+			"name":"Nana Mava Chowk",
+			"lat":"22.276446",
+			"long":"70.77767"
+		},
+
+		{
+			"id":"10",
+			"name":"West Zone Office RMC",
+			"lat":"22.2794398",
+			"long":"70.7745515"
+		},
+
+		{
+			"id":"11",
+			"name":"Indira Circle",
+			"lat":"22.2884372",
+			"long":"70.771176"
+		},
+
+		{
+			"id":"12",
+			"name":"Raiya Telephone Exchange",
+			"lat":"22.293905",
+			"long":"70.76944089999999"
+		},
+
+		{
+			"id":"13",
+			"name":"Raiya Chowk",
+			"lat":"22.301794",
+			"long":"70.768286"
+		},
+
+		{
+			"id":"14",
+			"name":"Nanavati Chowk",
+			"lat":"22.3052116",
+			"long":"70.7684542"
+		},
+
+		{
+			"id":"15",
+			"name":"Ramadevpir Chowk",
+			"lat":"22.3111257",
+			"long":"70.7677921"
+		},
+
+		{
+			"id":"16",
+			"name":"Shital Park",
+			"lat":"22.3154762",
+			"long":"70.7769387"
+		},
+
+		{
+			"id":"17",
+			"name":"Ayodhya Chowk",
+			"lat":"22.3229254",
+			"long":"70.7679254"
+		},
+
+		{
+			"id":"18",
+			"name":"Madhapar Chowk",
+			"lat":"22.3285992",
+			"long":"70.7691126"
+		}]}

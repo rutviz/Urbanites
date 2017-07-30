@@ -1,6 +1,10 @@
 package com.hackathon.urbanites;
 
+import android.location.Location;
 import android.util.Log;
+
+import com.google.android.gms.maps.model.LatLng;
+import com.google.maps.android.SphericalUtil;
 
 public class DistanceCalc {
 
