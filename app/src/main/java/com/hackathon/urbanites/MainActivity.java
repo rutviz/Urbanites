@@ -59,6 +59,7 @@ import java.util.List;
 import java.util.Scanner;
 
 
+import Modules.Bus_Traking;
 import Modules.DirectionFinder;
 import Modules.Distance;
 import Modules.MyLocation;
@@ -154,6 +155,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             }
         });
 
+
         my_location.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -205,11 +207,36 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             mMap.setMyLocationEnabled(true);
 
         }
+
         BRTS_bus = loadJSONFromAsset();
 
 
         mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(getMycurrentloc(), 12));
 
+        /*new Thread(new Runnable(){
+
+            @Override
+            public void run() {
+                while(true) {
+                    Log.d("parsing", "updating");
+                    if(i[0] !=0) {
+                        if (bt[0].almarker != null) {
+                            for (Marker marker : bt[0].almarker) {
+                                marker.remove();
+                            }
+                        }
+                    }
+                     bt[0] = (Bus_Traking) new Bus_Traking(mMap).execute();
+                    try {
+                        Thread.sleep(2500);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    i[0]++;
+                }
+            }
+        }).start();*/
+        new Bus_Traking(mMap).execute();
     }
 
     @Override
